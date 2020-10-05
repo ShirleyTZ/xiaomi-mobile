@@ -3,7 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maixmum-scale=1.0,user-scalable=no">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            width:100%;
+            height:100%;
+        }
+    </style>
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -29,6 +39,14 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      window.onresize = getRem;
+      function getRem(){
+          document.documentElement.style.fontSize = document.documentElement.offsetWidth / 6.4+'px';
+      }
+      getRem();
+  </script>
+  
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
