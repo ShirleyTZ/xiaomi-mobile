@@ -1,24 +1,40 @@
 {
   "files": {
-    "main.css": "/xiaomi-mobile/static/css/main.46d7529b.chunk.css",
-    "main.js": "/xiaomi-mobile/static/js/main.80bd0a23.chunk.js",
-    "main.js.map": "/xiaomi-mobile/static/js/main.80bd0a23.chunk.js.map",
+    "main.css": "/xiaomi-mobile/static/css/main.a857eadc.chunk.css",
+    "main.js": "/xiaomi-mobile/static/js/main.75060cf8.chunk.js",
+    "main.js.map": "/xiaomi-mobile/static/js/main.75060cf8.chunk.js.map",
     "runtime-main.js": "/xiaomi-mobile/static/js/runtime-main.3c9889b0.js",
     "runtime-main.js.map": "/xiaomi-mobile/static/js/runtime-main.3c9889b0.js.map",
-    "static/js/2.edcb0e23.chunk.js": "/xiaomi-mobile/static/js/2.edcb0e23.chunk.js",
-    "static/js/2.edcb0e23.chunk.js.map": "/xiaomi-mobile/static/js/2.edcb0e23.chunk.js.map",
+    "static/js/2.74906283.chunk.js": "/xiaomi-mobile/static/js/2.74906283.chunk.js",
+    "static/js/2.74906283.chunk.js.map": "/xiaomi-mobile/static/js/2.74906283.chunk.js.map",
     "index.html": "/xiaomi-mobile/index.html",
-    "precache-manifest.83456e39a5b675161036decba91f41cc.js": "/xiaomi-mobile/precache-manifest.83456e39a5b675161036decba91f41cc.js",
+    "precache-manifest.5c574c78eea4c10e448d20254b3e7229.js": "/xiaomi-mobile/precache-manifest.5c574c78eea4c10e448d20254b3e7229.js",
     "service-worker.js": "/xiaomi-mobile/service-worker.js",
-    "static/css/main.46d7529b.chunk.css.map": "/xiaomi-mobile/static/css/main.46d7529b.chunk.css.map",
-    "static/js/2.edcb0e23.chunk.js.LICENSE.txt": "/xiaomi-mobile/static/js/2.edcb0e23.chunk.js.LICENSE.txt",
+    "static/css/main.a857eadc.chunk.css.map": "/xiaomi-mobile/static/css/main.a857eadc.chunk.css.map",
+    "static/js/2.74906283.chunk.js.LICENSE.txt": "/xiaomi-mobile/static/js/2.74906283.chunk.js.LICENSE.txt",
+    "static/media/StarFooter.png": "/xiaomi-mobile/static/media/StarFooter.57796e3b.png",
+    "static/media/StarFooter2.png": "/xiaomi-mobile/static/media/StarFooter2.9cb28d49.png",
+    "static/media/StarFooter3.png": "/xiaomi-mobile/static/media/StarFooter3.9cb28d49.png",
     "static/media/bg.png": "/xiaomi-mobile/static/media/bg.63c8e198.png",
-    "static/media/icon-star-selected.png": "/xiaomi-mobile/static/media/icon-star-selected.52a68e36.png"
+    "static/media/cate1.png": "/xiaomi-mobile/static/media/cate1.192bb11d.png",
+    "static/media/cate10.jpg": "/xiaomi-mobile/static/media/cate10.66c5523a.jpg",
+    "static/media/cate11.jpg": "/xiaomi-mobile/static/media/cate11.061d79c9.jpg",
+    "static/media/cate2.png": "/xiaomi-mobile/static/media/cate2.b57cb3d0.png",
+    "static/media/cate5.jpg": "/xiaomi-mobile/static/media/cate5.a8861e8d.jpg",
+    "static/media/cate6.jpg": "/xiaomi-mobile/static/media/cate6.599f72a3.jpg",
+    "static/media/cate8.png": "/xiaomi-mobile/static/media/cate8.1e39ee0d.png",
+    "static/media/cate9.jpg": "/xiaomi-mobile/static/media/cate9.6fef9a48.jpg",
+    "static/media/icon-star-selected.png": "/xiaomi-mobile/static/media/icon-star-selected.52a68e36.png",
+    "static/media/Star.css": "/xiaomi-mobile/static/media/showOne.770a3104.jpg",
+    "static/media/unit1.png": "/xiaomi-mobile/static/media/unit1.3f88631e.png",
+    "static/media/unit2.png": "/xiaomi-mobile/static/media/unit2.2f321bf0.png",
+    "static/media/unit3.png": "/xiaomi-mobile/static/media/unit3.27d78362.png",
+    "static/media/unit4.png": "/xiaomi-mobile/static/media/unit4.45408581.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3c9889b0.js",
-    "static/js/2.edcb0e23.chunk.js",
-    "static/css/main.46d7529b.chunk.css",
-    "static/js/main.80bd0a23.chunk.js"
+    "static/js/2.74906283.chunk.js",
+    "static/css/main.a857eadc.chunk.css",
+    "static/js/main.75060cf8.chunk.js"
   ]
 }

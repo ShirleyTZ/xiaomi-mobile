@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xiaomi-mobile/precache-manifest.83456e39a5b675161036decba91f41cc.js"
+  "/xiaomi-mobile/precache-manifest.5c574c78eea4c10e448d20254b3e7229.js"
 );
 
 self.addEventListener('message', (event) => {
