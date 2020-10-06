@@ -11,10 +11,7 @@ class BtnWithImgsAndDesc extends Component {
     return (
         <div className={this.props.btnBox}>
         {items.map((item,key) => {
-            console.log(3333, item);
-            if (typeof item.img === 'string') {
-                console.log('wo tm', item);
-            }
+            
             return (
                     
                     <a 

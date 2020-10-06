@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+
+class ImgList extends Component {
+
+  render() {
+    const btns = this.props.btns;
+    return (
+      <div className={this.props.listName} >
+        {btns.map((btn,key) => (
+          <a className={this.props.btnName} key={key}>
+            <img src={btn}/>
+          </a>)
+        )}
+      </div>
+    )
+  }
+}
+
+export default ImgList;

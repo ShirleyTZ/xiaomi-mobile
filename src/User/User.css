@@ -81,14 +81,14 @@
 .User-order {
   display: flex;
   flex-direction: column;
-  padding: .35rem 0 ;
+  padding: .35rem 0 .32rem;
 
 }
 
 .User-order-img {
   width: .427rem;
   height: .427rem;
-  margin: 0 auto .15rem;
+  margin: 0 auto .13rem;
   background: no-repeat center 0;
   background-size: .427rem;
 }
