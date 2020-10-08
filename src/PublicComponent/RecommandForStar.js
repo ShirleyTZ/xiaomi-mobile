@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import eye from'../Star/StarResource/RecommandLeftImgs/eye.png';
 
 class RecommandForStar extends Component {
   render() {
@@ -6,22 +7,18 @@ class RecommandForStar extends Component {
   return(
     <div className={this.props.box}>
       {items.map((item,i) => {
-        console.log(3333, item);
-        if (typeof item === 'string') {
-            console.log('wo tm', item);
-        }
       return  (<div className={this.props.imgWrapper} key={i}>
           <div className={this.props.imgItem} style={item.img}></div>
-          <div  className={this.props.imgName}>{item.name}</div>
           <div className={this.props.imgDescribe}>{item.desc}</div>
+          <div  className={this.props.imgName}>{item.name}</div>
           <div className={this.props.userWrapper}>
               <div>
-                  <span className={this.props.userImg} style={item.userImg}></span>
-                  <span className={this.props.userName}>{item.userName}</span>
+                  <div className={this.props.userImg} style={item.userImg}></div> 
+                  <div className={this.props.userName}>{item.userName}</div>
               </div>
               <div>
-                  <span ></span>
-                  <span className={this.props.viewedNumClass}>{item.viewNum}</span>
+                  <img className={this.props.watchImg} src={eye} />
+                  <div className={this.props.viewedNum}>{item.viewNum}</div>
               </div>
           </div>
           </div>)

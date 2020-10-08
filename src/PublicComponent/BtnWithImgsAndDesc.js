@@ -7,13 +7,10 @@ class BtnWithImgsAndDesc extends Component {
   
   render() {
     const items = this.props.items;
-    console.log(222222, items);
     return (
         <div className={this.props.btnBox}>
-        {items.map((item,key) => {
-            
-            return (
-                    
+        {items.map((item,key) => {          
+            return (                 
                     <a 
                         className={this.props.btnName} 
                         key={key}

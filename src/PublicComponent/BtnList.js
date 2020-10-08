@@ -7,7 +7,7 @@ class BtnList extends Component {
     return (
       <div className={this.props.listName} >
         {btns.map((btn,key) => (
-          <div className={this.props.btnName}  >{btn}</div>)
+          <div className={this.props.btnName} key={key} >{btn}</div>)
         )}
       </div>
     )
