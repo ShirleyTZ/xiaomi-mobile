@@ -66,7 +66,7 @@ class Star extends Component {
   showMore() {
     let pageNum = this.state.pageNum;
     let moreData = [];
-    let data = this.state.data;
+    let that = this;
     let newData;
     
     $(window).scroll(function(){
@@ -76,12 +76,17 @@ class Star extends Component {
       if(scrollTop + clientHeight >= bodyHeight) {
         moreData = recommend.slice(pageNum*5 -5, pageNum*5);
         pageNum = pageNum + 1;
-        newData = data.concat(moreData);
+        newData = that.state.data.concat(...moreData);
+        setTimeout(function(){
+          that.setState({
+            data: newData
+          })
+          that.waterFall();
+        },300)
       }
     })
     
-    console.log(moreData);
-    console.log(newData);
+    
   }
  
 
