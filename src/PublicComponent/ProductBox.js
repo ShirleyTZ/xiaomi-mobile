@@ -17,7 +17,7 @@ class ProductBox extends Component {
                 <span>{product.price} </span>
                 <del>{product.beforePrice}</del>
               </p>
-                {this.props.cartBtn !== undefined ? <div></div>:""}
+                {this.props.cartBtn !== undefined ? <div className={this.props.cartBtn}>立即购买</div>:""}
             </div>
           ))}   
         </div>

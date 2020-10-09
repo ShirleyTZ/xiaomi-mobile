@@ -9,6 +9,7 @@ class ImgList extends Component {
         {btns.map((btn,key) => (
           <a className={this.props.btnName} key={key}>
             <img src={btn}/>
+            {this.props.circle !== undefined ? <div className={this.props.circle}></div>:""}
           </a>)
         )}
       </div>

@@ -1,0 +1,309 @@
+/* Home 导航栏*/
+
+.Home-header {
+  position: fixed;
+  width: 6.4rem;
+  top: 0;
+  background-color: #f2f2f2;
+}
+
+.Home-header-search {
+  padding: .05rem .2rem .2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home-header-input-wrapper {
+  flex: 1;
+  height: .55rem;
+  margin: auto .24rem;
+  display: flex;
+  position: relative;
+}
+
+.Home-header-input-wrapper input {
+  height: 100%;
+  width: 100%;
+  padding-left: .6rem;
+  font-size: .26rem;
+  border: 1px solid #e5e5e5;
+}
+
+.Home-header-input-wrapper input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0 , .3);
+}
+
+.Home-header-search-input-img {
+  content: "ajneikan";
+  width: .5rem;
+  height: .5rem;
+  background: url('./HomeResource/searchImg.png') center 0 no-repeat;
+  background-size: .5rem .5rem;
+  position: absolute;
+  left: .1rem;
+  top: .08rem;
+  z-index: 10;
+}
+
+.Home-header-search img {
+  width: .4rem;
+  height: .4rem;
+  margin: auto 0;
+}
+
+.Home-header-logo {
+  width: .5rem;
+  height: .4rem;
+  margin-top: .2rem;
+  border: none;
+  background: center 0 no-repeat;
+  background-size: .4rem .25rem;
+}
+
+.Home-header-nav-wrapper {
+  position: relative;
+  box-shadow: 5px 2px 3px rgba(156, 156, 156, 0.575);
+}
+
+.Home-header-nav {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-right: .6rem;
+}
+
+.Home-header-nav-af {
+  padding: .05rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-header-nav-items {
+  padding: 0  .23rem .1rem;
+  font-size: .23rem;
+  color: rgb(116, 116, 116);
+}
+
+.Home-header-nav-items-af {
+  width: 1.26rem;
+  font-size: .24rem;
+  background-color: white;
+  text-align: center;
+  padding: .05rem 0;
+  margin: .1rem .15rem;
+  border: 1px solid #e5e5e5;
+  border-radius: .1rem;
+}
+
+.Home-header-nav-all {
+  font-size: .26rem;
+  padding-left: .28rem;
+  color: #3c3c3c;
+  display: none;
+}
+
+.Home-header-nav-clickbtn {
+  width: .4rem;
+  height: .4rem;
+  background: center 0 no-repeat;
+  background-size: .4rem .4rem;
+  background-position: top;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Home-sections {
+  margin-top: 1.3rem;
+}
+
+/* home 轮播图*/
+
+.Home-swiper-lazy {
+  width: 6.4rem;
+  height: 3.15rem;
+  overflow: hidden;
+}
+
+.Home-swiper-list-items, .Home-swiper-list-items img {
+  width: 6.4rem;
+  height: 3.15rem;
+}
+
+.Home-recommendcell-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-recommendcell-list-items, .Home-recommendcell-list-items img{
+  width: 1.28rem;
+  height: 1.35rem;
+}
+
+.divider-line {
+  width: 6.4rem;
+  height: .16rem;
+  background-color: rgb(245, 245, 245);
+}
+
+.Home-recommandCell {
+  display: flex;
+}
+
+.Home-RC-leftImg-wrapper {
+  margin-right: .04rem;
+
+}
+
+/* 商品分区*/
+
+.Home-RC-leftImg-wrapper, .Home-RC-leftImg-wrapper img {
+  width: 3.18rem;
+  height: 4.515rem;
+}
+
+.Home-recommend-RightImg-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Home-recommend-RightImg-wrapper, .Home-recommend-RightImg-wrapper img {
+  width: 3.18rem;
+}
+
+/* 首页链接大图*/
+
+.Home-imgbtn {
+  width: 6.4rem;
+}
+
+/* 首页手机、电视等商品样式*/
+
+.Home-product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-product-item {
+  width: 3.1rem;
+  margin: .1rem .05rem 0.2rem;
+  text-align: center;
+}
+
+.Home-product-item-img, .Home-product-item-img img{
+  width: 3.1rem;
+}
+
+.Home-product-item-name {
+  font-size: .28rem;
+  color: rgba(0, 0, 0 , .87);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-product-item-desc {
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
+
+.Home-product-item-price {
+  display: flex;
+  justify-content: center;
+}
+
+.Home-product-item-price span{
+  font-size: .22rem;
+  color: #ea625b;
+}
+
+.Home-product-item-price del {
+  margin-left: .1rem;
+  line-height: .32rem;
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
+
+.Home-product-item-cart {
+  font-size: .22rem;
+  color: white;
+  background-color: #ea625b;
+  border-radius: .05rem;
+  width: 1.5rem;
+  padding: .1rem;
+  margin: auto;
+}
+
+.Home-product-more {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .24rem;
+  color: rgba(0, 0, 0 , .6);
+}
+
+.Home-product-more-haveborder {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .24rem;
+  color: rgba(0, 0, 0 , .6);
+  border-top: .01rem solid rgb(206, 206, 206);
+}
+
+.Home-articles-wrapper {
+  display: flex;
+}
+
+/* 电器样式 */
+.Home-appliance-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-appliance-item {
+  width: 3.18rem;
+  margin: .1rem 0 0.2rem;
+}
+
+.Home-appliance-item:nth-of-type(2n) {
+  margin-left: .04rem;
+}
+
+.Home-appliance-item-img, .Home-appliance-item-img img{
+  width: 3.18rem;
+}
+
+.Home-appliance-item-name {
+  font-size: .28rem;
+  color: rgba(0, 0, 0 , .87);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 .2rem;
+}
+
+.Home-appliance-item-desc {
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+  padding: 0 .2rem;
+}
+
+.Home-appliance-item-price {
+  display: flex;
+  padding: 0 .2rem;
+}
+
+.Home-appliance-item-price span{
+  font-size: .22rem;
+  color: #ea625b;
+}
+
+.Home-appliance-item-price del {
+  margin-left: .1rem;
+  line-height: .32rem;
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
