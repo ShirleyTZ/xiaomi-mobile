@@ -1,27 +1,271 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cb420ea00c70a5788066280223b4425",
+    "revision": "764d66f87855977867aa4c9d2caa92a9",
     "url": "/xiaomi-mobile/index.html"
   },
   {
-    "revision": "abf4975f1e0f841cc9b2",
-    "url": "/xiaomi-mobile/static/css/main.2037c3d0.chunk.css"
+    "revision": "bd084e62e64acd8bb554",
+    "url": "/xiaomi-mobile/static/css/main.0909977c.chunk.css"
   },
   {
-    "revision": "2be99f69aa11b7595919",
-    "url": "/xiaomi-mobile/static/js/2.a39207cc.chunk.js"
+    "revision": "8ef997e29580a314a262",
+    "url": "/xiaomi-mobile/static/js/2.8b205cdf.chunk.js"
   },
   {
     "revision": "ffa35a34964860fdc97ed79ca9abd27c",
-    "url": "/xiaomi-mobile/static/js/2.a39207cc.chunk.js.LICENSE.txt"
+    "url": "/xiaomi-mobile/static/js/2.8b205cdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abf4975f1e0f841cc9b2",
-    "url": "/xiaomi-mobile/static/js/main.c767f0ed.chunk.js"
+    "revision": "bd084e62e64acd8bb554",
+    "url": "/xiaomi-mobile/static/js/main.89ca2ee9.chunk.js"
   },
   {
     "revision": "d56c685aa0628c33526f",
     "url": "/xiaomi-mobile/static/js/runtime-main.3c9889b0.js"
+  },
+  {
+    "revision": "19fa0c6cd23dcb3e2dc2ca57534de841",
+    "url": "/xiaomi-mobile/static/media/List1Img1.19fa0c6c.png"
+  },
+  {
+    "revision": "70c573bce5defbb21f68131ad79b3726",
+    "url": "/xiaomi-mobile/static/media/List1Img1.70c573bc.png"
+  },
+  {
+    "revision": "70e1cd93a8afb761b0dc65049f6e4de5",
+    "url": "/xiaomi-mobile/static/media/List1Img1.70e1cd93.png"
+  },
+  {
+    "revision": "ae0e6c024cdd68e2af1a247f9c31a3e6",
+    "url": "/xiaomi-mobile/static/media/List1Img1.ae0e6c02.png"
+  },
+  {
+    "revision": "ed570fcbf1be0b0955237df7ae70fa3c",
+    "url": "/xiaomi-mobile/static/media/List1Img10.ed570fcb.png"
+  },
+  {
+    "revision": "c407a76543c5ffb47726fdb594e05cfb",
+    "url": "/xiaomi-mobile/static/media/List1Img12.c407a765.png"
+  },
+  {
+    "revision": "3321199a5e221b718d48a96e2e437a0f",
+    "url": "/xiaomi-mobile/static/media/List1Img13.3321199a.png"
+  },
+  {
+    "revision": "9e9ce88053cd35b7e519b5b1ef4fb9fc",
+    "url": "/xiaomi-mobile/static/media/List1Img14.9e9ce880.png"
+  },
+  {
+    "revision": "9868dce702ef3c39bfbb91572a2ea975",
+    "url": "/xiaomi-mobile/static/media/List1Img15.9868dce7.png"
+  },
+  {
+    "revision": "d2ced57bda20ca6e2ae39bf9cfe85173",
+    "url": "/xiaomi-mobile/static/media/List1Img17.d2ced57b.png"
+  },
+  {
+    "revision": "0497a64d44b118649c843fb808fbf761",
+    "url": "/xiaomi-mobile/static/media/List1Img2.0497a64d.png"
+  },
+  {
+    "revision": "19fa0c6cd23dcb3e2dc2ca57534de841",
+    "url": "/xiaomi-mobile/static/media/List1Img2.19fa0c6c.png"
+  },
+  {
+    "revision": "7439bd8dd9e3485a62fe1198dd489e72",
+    "url": "/xiaomi-mobile/static/media/List1Img2.7439bd8d.png"
+  },
+  {
+    "revision": "76fde664e9d34b58fa8bda32fd8ea301",
+    "url": "/xiaomi-mobile/static/media/List1Img2.76fde664.png"
+  },
+  {
+    "revision": "8281d1585e3157952fb4df5ccb5bd887",
+    "url": "/xiaomi-mobile/static/media/List1Img2.8281d158.png"
+  },
+  {
+    "revision": "e2e31c3923b3d726b26b1e6ad78f7608",
+    "url": "/xiaomi-mobile/static/media/List1Img22.e2e31c39.png"
+  },
+  {
+    "revision": "c9f251c63d88b43980e825ca504b6956",
+    "url": "/xiaomi-mobile/static/media/List1Img23.c9f251c6.png"
+  },
+  {
+    "revision": "142c10ae577e943f688e6d3781dc6948",
+    "url": "/xiaomi-mobile/static/media/List1Img24.142c10ae.png"
+  },
+  {
+    "revision": "583a8a6bf52749b3868f882ec2b4d47d",
+    "url": "/xiaomi-mobile/static/media/List1Img28.583a8a6b.png"
+  },
+  {
+    "revision": "31565133ff8bcaa0c2d5b129f5417dcf",
+    "url": "/xiaomi-mobile/static/media/List1Img3.31565133.png"
+  },
+  {
+    "revision": "3771b5984905ef03d2926441448c9822",
+    "url": "/xiaomi-mobile/static/media/List1Img3.3771b598.png"
+  },
+  {
+    "revision": "70e1cd93a8afb761b0dc65049f6e4de5",
+    "url": "/xiaomi-mobile/static/media/List1Img3.70e1cd93.png"
+  },
+  {
+    "revision": "a20b3236281d62d27579d1f87a48c078",
+    "url": "/xiaomi-mobile/static/media/List1Img3.a20b3236.png"
+  },
+  {
+    "revision": "f8436f5fb2af50b19c6d570aa7dd71ce",
+    "url": "/xiaomi-mobile/static/media/List1Img31.f8436f5f.png"
+  },
+  {
+    "revision": "81409012617fed63cc133526a558dc6f",
+    "url": "/xiaomi-mobile/static/media/List1Img36.81409012.png"
+  },
+  {
+    "revision": "3cfef8b7c72d1c3ebb11ebf3505f3193",
+    "url": "/xiaomi-mobile/static/media/List1Img37.3cfef8b7.png"
+  },
+  {
+    "revision": "0b8626484ca722f0bca78a18688894ac",
+    "url": "/xiaomi-mobile/static/media/List1Img4.0b862648.png"
+  },
+  {
+    "revision": "d5913baf91ad7073e412d6f46ccbc58e",
+    "url": "/xiaomi-mobile/static/media/List1Img4.d5913baf.png"
+  },
+  {
+    "revision": "fbdc8ab256750388013a8ddfd14bed22",
+    "url": "/xiaomi-mobile/static/media/List1Img4.fbdc8ab2.png"
+  },
+  {
+    "revision": "87bb1c5dc5a95943604606bc01d93c1d",
+    "url": "/xiaomi-mobile/static/media/List1Img44.87bb1c5d.png"
+  },
+  {
+    "revision": "7c525cf4a2da0b385180110771602288",
+    "url": "/xiaomi-mobile/static/media/List1Img49.7c525cf4.png"
+  },
+  {
+    "revision": "8197d0d7430abd53b4e4c598770690c8",
+    "url": "/xiaomi-mobile/static/media/List1Img5.8197d0d7.png"
+  },
+  {
+    "revision": "81f40635d54747b49b24624783e5dbdc",
+    "url": "/xiaomi-mobile/static/media/List1Img52.81f40635.png"
+  },
+  {
+    "revision": "387ac979c4739ca3316c78bed3e47a4c",
+    "url": "/xiaomi-mobile/static/media/List1Img53.387ac979.png"
+  },
+  {
+    "revision": "3ae2922e3e7aee1b2c7552631da80ccc",
+    "url": "/xiaomi-mobile/static/media/List1Img55.3ae2922e.png"
+  },
+  {
+    "revision": "bc840b39c1a934463a6977d76fa08d8c",
+    "url": "/xiaomi-mobile/static/media/List1Img6.bc840b39.png"
+  },
+  {
+    "revision": "270d148227de77c03a584e977d3fc6d2",
+    "url": "/xiaomi-mobile/static/media/List1Img62.270d1482.png"
+  },
+  {
+    "revision": "00b5008394c74f1a256b5b16965f3e91",
+    "url": "/xiaomi-mobile/static/media/List1Img63.00b50083.png"
+  },
+  {
+    "revision": "8a016d0cd44c362fbcc3558436141ddc",
+    "url": "/xiaomi-mobile/static/media/List1Img64.8a016d0c.png"
+  },
+  {
+    "revision": "70adf2d7eb4028042252603cfeeef506",
+    "url": "/xiaomi-mobile/static/media/List1Img67.70adf2d7.png"
+  },
+  {
+    "revision": "64263f6e9d1c7415d32aa2126f935b32",
+    "url": "/xiaomi-mobile/static/media/List1Img68.64263f6e.png"
+  },
+  {
+    "revision": "c291d077482f6380eec0e32bff47f51f",
+    "url": "/xiaomi-mobile/static/media/List1Img70.c291d077.png"
+  },
+  {
+    "revision": "0daec2c7c27df696ddace8cb685a7c85",
+    "url": "/xiaomi-mobile/static/media/List1Img8.0daec2c7.png"
+  },
+  {
+    "revision": "2a4a2cb3c864ce207caa7fa048026130",
+    "url": "/xiaomi-mobile/static/media/List2Img1.2a4a2cb3.png"
+  },
+  {
+    "revision": "5c6893741929a1856eff51ef96975cdc",
+    "url": "/xiaomi-mobile/static/media/List2Img1.5c689374.png"
+  },
+  {
+    "revision": "af0f34c3eff580ffced1d369c43a4d2a",
+    "url": "/xiaomi-mobile/static/media/List2Img1.af0f34c3.png"
+  },
+  {
+    "revision": "249a2d93aecc7b9ca62cdd23b4ace791",
+    "url": "/xiaomi-mobile/static/media/List2Img2.249a2d93.png"
+  },
+  {
+    "revision": "af0f34c3eff580ffced1d369c43a4d2a",
+    "url": "/xiaomi-mobile/static/media/List2Img2.af0f34c3.png"
+  },
+  {
+    "revision": "eaaf51eda0e0fc54a6a13b6603885c9c",
+    "url": "/xiaomi-mobile/static/media/List2Img2.eaaf51ed.png"
+  },
+  {
+    "revision": "98bfca61dbcd6f0b6d43aef5df241b00",
+    "url": "/xiaomi-mobile/static/media/List2Img3.98bfca61.png"
+  },
+  {
+    "revision": "8d555c17adb55695a6097a8f36469b1a",
+    "url": "/xiaomi-mobile/static/media/List2Img4.8d555c17.png"
+  },
+  {
+    "revision": "f985ee0fdc368ca1386444a845cc8a67",
+    "url": "/xiaomi-mobile/static/media/List2Img6.f985ee0f.png"
+  },
+  {
+    "revision": "3771b5984905ef03d2926441448c9822",
+    "url": "/xiaomi-mobile/static/media/List3Img1.3771b598.png"
+  },
+  {
+    "revision": "d6eeca2c6ef2915d038fd9b2e45fc618",
+    "url": "/xiaomi-mobile/static/media/List3Img1.d6eeca2c.png"
+  },
+  {
+    "revision": "35aac954e7238e8ecd71e0be71a2c412",
+    "url": "/xiaomi-mobile/static/media/List3Img2.35aac954.png"
+  },
+  {
+    "revision": "119a4b3e4037f57e01cc399c55519e13",
+    "url": "/xiaomi-mobile/static/media/List3Img3.119a4b3e.png"
+  },
+  {
+    "revision": "62772fbbea55b45a9656a29696177371",
+    "url": "/xiaomi-mobile/static/media/List3Img4.62772fbb.png"
+  },
+  {
+    "revision": "540c67d3e539fc50ddeb31ec6378d7bd",
+    "url": "/xiaomi-mobile/static/media/List3Img5.540c67d3.png"
+  },
+  {
+    "revision": "b8d9e464b6fa1021a79ea17b7ebdad64",
+    "url": "/xiaomi-mobile/static/media/List4Img1.b8d9e464.gif"
+  },
+  {
+    "revision": "6cda03f94e934b4fa78deb98b91f7f05",
+    "url": "/xiaomi-mobile/static/media/List4Img2.6cda03f9.gif"
+  },
+  {
+    "revision": "48305d5ee0acaf7032ea5edaf7cbfdb7",
+    "url": "/xiaomi-mobile/static/media/List5Img3.48305d5e.png"
   },
   {
     "revision": "5ac927f3054cbe2c7e33d97093fe0ae9",
@@ -116,8 +360,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiaomi-mobile/static/media/guessImg.b148915c.jpg"
   },
   {
+    "revision": "5773c82edad747094d1254cf5b948820",
+    "url": "/xiaomi-mobile/static/media/headImg.5773c82e.webp"
+  },
+  {
+    "revision": "7c3e0adacc076c342f71717973aa1bbd",
+    "url": "/xiaomi-mobile/static/media/headerImg.7c3e0ada.webp"
+  },
+  {
+    "revision": "e9657d890439d555e2202991b229f9bc",
+    "url": "/xiaomi-mobile/static/media/headerImg.e9657d89.webp"
+  },
+  {
     "revision": "52a68e3664ee9af35f66586540d9b610",
     "url": "/xiaomi-mobile/static/media/icon-star-selected.52a68e36.png"
+  },
+  {
+    "revision": "1d64e0ef557ce5f0aa5b9cf80590c544",
+    "url": "/xiaomi-mobile/static/media/img1.1d64e0ef.webp"
   },
   {
     "revision": "c09761504df2e4cd0846b915211ceab1",
@@ -140,6 +400,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiaomi-mobile/static/media/img2.61dcb398.jpg"
   },
   {
+    "revision": "8980cbe255e478ba0fbb1f9ae4a726f2",
+    "url": "/xiaomi-mobile/static/media/img2.8980cbe2.webp"
+  },
+  {
     "revision": "9b41e16dcc3b75b76ba6148e7341fb9a",
     "url": "/xiaomi-mobile/static/media/img2.9b41e16d.jpg"
   },
@@ -148,8 +412,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiaomi-mobile/static/media/img2.eee7de4b.jpg"
   },
   {
+    "revision": "244b02d9f723c0f3c88d34f8e1f3c305",
+    "url": "/xiaomi-mobile/static/media/img3.244b02d9.jpg"
+  },
+  {
     "revision": "8fc8a5971345af7690cabf06ed171d5b",
     "url": "/xiaomi-mobile/static/media/img3.8fc8a597.jpg"
+  },
+  {
+    "revision": "973302c70cebfec2cb1cb4a85296211f",
+    "url": "/xiaomi-mobile/static/media/img3.973302c7.webp"
   },
   {
     "revision": "9e0419387554ec7230141327a4ae39ed",
@@ -166,6 +438,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f0ea30af00e93febd144e72e1232085",
     "url": "/xiaomi-mobile/static/media/img4.5f0ea30a.jpg"
+  },
+  {
+    "revision": "7bf46aa6904b6cc0aaf0148c2a20870e",
+    "url": "/xiaomi-mobile/static/media/img4.7bf46aa6.webp"
   },
   {
     "revision": "7d8d3dc096eb6278c22c729640a1ae46",
@@ -188,6 +464,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiaomi-mobile/static/media/img5.896ab1d7.jpg"
   },
   {
+    "revision": "8c4737244f866c7c665038253d50bf10",
+    "url": "/xiaomi-mobile/static/media/img5.8c473724.webp"
+  },
+  {
     "revision": "ae32c31d07498e7d94c52ba141a53ac7",
     "url": "/xiaomi-mobile/static/media/img5.ae32c31d.jpeg"
   },
@@ -204,6 +484,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiaomi-mobile/static/media/img6.3a7b2733.jpg"
   },
   {
+    "revision": "5af07e4cede0c4ebac83b8338a05b034",
+    "url": "/xiaomi-mobile/static/media/img6.5af07e4c.webp"
+  },
+  {
     "revision": "c0c84567e94f602404470040a9b412fc",
     "url": "/xiaomi-mobile/static/media/img6.c0c84567.webp"
   },
@@ -218,6 +502,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4220f614590821ce25a226083052ad7c",
     "url": "/xiaomi-mobile/static/media/img9.4220f614.jpg"
+  },
+  {
+    "revision": "ece4415577572c0908c634fd1ed495f6",
+    "url": "/xiaomi-mobile/static/media/intelligentAppliance.ece44155.webp"
+  },
+  {
+    "revision": "96ea0cc1f8183d9e1ec073154bf3208f",
+    "url": "/xiaomi-mobile/static/media/intelligentProduct.96ea0cc1.jpg"
+  },
+  {
+    "revision": "1213dce0022f502a6b4057c767b46138",
+    "url": "/xiaomi-mobile/static/media/moreLink.1213dce0.webp"
   },
   {
     "revision": "4a0f565a51bf853497135e8fdea4edad",
