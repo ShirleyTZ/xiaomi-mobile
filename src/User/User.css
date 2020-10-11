@@ -70,12 +70,10 @@
   transform: translate3d(0, 50%, 0) rotate(135deg);
 }
 
-.User-order-box {
+.User-order-items-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 0 .7rem;
-
 }
 
 .User-order {

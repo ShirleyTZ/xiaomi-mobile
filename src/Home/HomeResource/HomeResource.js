@@ -177,3 +177,36 @@ export const appliance = [
   }
 ]
 
+export const intelligentProduct = require("./intelligentProduct.jpg");
+export const intelligentAppliance = require("./intelligentAppliance.webp");
+
+export const otherProduct = [
+  {
+    img: require("./HomeOtherProduct/img1.jpg"),
+    name: "米家直流变频落地扇1X",
+    desc: "模拟自然风算法",
+    price: "¥299",
+    beforePrice: "",
+  }, {
+    img: require("./HomeOtherProduct/img2.jpg"),
+    name: "小爱音箱万能遥控板",
+    desc: "传统家电秒变智能",
+    price: "¥149",
+    beforePrice: "¥199",
+  }, {
+    img: require("./HomeOtherProduct/img3.jpg"),
+    name: "米家照片打印机",
+    desc: "手机即拍即印",
+    price: "¥499",
+    beforePrice: "",
+  }
+]
+
+export const HomeAboutXiaomiProduct = [
+  require('./HomeAboutXiaomiProduct/img1.webp'),
+  require('./HomeAboutXiaomiProduct/img2.webp'),
+  require('./HomeAboutXiaomiProduct/img3.webp'),
+  require('./HomeAboutXiaomiProduct/img4.webp'),
+  require('./HomeAboutXiaomiProduct/img5.webp'),
+  require('./HomeAboutXiaomiProduct/img6.webp'),
+]

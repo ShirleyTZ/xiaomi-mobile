@@ -27,6 +27,7 @@ class User extends Component {
           <BtnWithImgsAndDesc 
               items={orders}
               btnBox="User-order-box" 
+              btnitemsWrapper="User-order-items-wrapper"
               btnName="User-order" 
               imgClassName="User-order-img" 
               descClassName="User-order-desc"

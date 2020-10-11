@@ -18,7 +18,11 @@ import {homeMiLogo,
     washingMachine,
     exchange,
     laptopImgs,
-    appliance
+    appliance,
+    intelligentProduct,
+    intelligentAppliance,
+    HomeAboutXiaomiProduct,
+    otherProduct,
   } from './HomeResource/HomeResource';
 import BtnList from '../PublicComponent/BtnList';
 import ImgList from '../PublicComponent/ImgList';
@@ -192,30 +196,62 @@ class Home extends Component {
               name="Home-appliance-item-name"
               desc="Home-appliance-item-desc"
               price="Home-appliance-item-price"
-
             />
             <div className="Home-product-more-haveborder">{"更多米家家电产品>"}</div>
           </article>
+
+          <div className="divider-line"></div>
+
+          <article className="Home-recommandCell">
+            <img className="Home-imgbtn" src={intelligentProduct}/>
+          </article>
+
+          <div className="divider-line"></div>
+
+          <article className="Home-recommandCell">
+            <img className="Home-imgbtn" src={intelligentAppliance}/>
+          </article>
+
+          <article>
+            <ProductBox 
+              items={otherProduct}
+              productCaseWrapper="Home-appliance-wrapper Home-otherProduct-wrapper"
+              content="Home-appliance-item Home-otherProduct-item-wrapper"
+              thumb="Home-appliance-item-img"
+              about="Home-appliance-about"
+              name="Home-appliance-item-name"
+              desc="Home-appliance-item-desc"
+              price="Home-appliance-item-price"
+            />
+            <div className="Home-product-more-haveborder">{"更多米家智能产品>"}</div>
+          </article>
+
+          <div className="divider-line"></div>
+
+          <article>
+            <ImgList 
+              btns={HomeAboutXiaomiProduct}
+              listName="Home-about-list"
+              btnName="Home-about-list-items"
+            />
+          </article>
+
+          <div className="divider-line"></div>
 
           <article className="Home-articles-wrapper">
             <img className="Home-imgbtn" src={exchange}/>
           </article>
 
-
-
+          <div className="divider-line"></div>
+          <div className="Home-product-more">{"了解小米"}</div>
           <div className="divider-line"></div>
         </section>
 
-        <section>
+        <section className=".Home-sections">
           sjadhbeia
-          <div>adjvniaeufniajnd</div>
-          <div>adjvniaeufniajnd</div>
-          <div>adjvniaeufniajnd</div>
-          <div>adjvniaeufniajnd</div>
-
-          <div>adjvniaeufniajnd</div>
-          <div>adjvniaeufniajnd</div>
-          <div>adjvniaeufniajnd</div>
+          <div className="nnn">adjvniaeufniajnd</div>
+          <div className="nnn">adjvniaeufniajnd</div>
+          <div className="nnn">adjvniaeufniajnd</div>
         </section>
       </div>
     )

@@ -1,3 +1,4 @@
+
 /* Home 导航栏*/
 
 .Home-header {
@@ -114,8 +115,10 @@
 }
 
 .Home-sections {
+  width: 6.4rem;
   margin-top: 1.3rem;
 }
+
 
 /* home 轮播图*/
 
@@ -306,4 +309,60 @@
   line-height: .32rem;
   font-size: .18rem;
   color: rgba(0, 0, 0 , .54);
+}
+
+/* 产品大图 */
+
+.Home-about-list {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.Home-about-list-items {
+  display: flex;
+  margin-bottom: .03rem;
+}
+
+.Home-about-list-items, .Home-about-list-items img {
+  width: 3.175rem;
+}
+
+.Home-about-list-items:nth-of-type(2n) {
+  margin-left: .05rem;
+}
+
+.Home-otherProduct-wrapper {
+  margin-top: .05rem;
+}
+
+.Home-appliance-wrapper .Home-otherProduct-item-wrapper {
+  display: flex;
+  width: 6.4rem;
+  height: 3.2rem;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Home-otherProduct-item-wrapper:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+.Home-otherProduct-item-wrapper > .Home-appliance-item-img img {
+  width: 3.2rem;
+}
+
+
+
+.Home-appliance-about {
+  padding-top: .3rem;
+  width: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nnn {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

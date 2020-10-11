@@ -63,6 +63,8 @@ class Star extends Component {
     })
   }
 
+
+
   showMore() {
     let pageNum = this.state.pageNum;
     let moreData = [];
@@ -85,8 +87,6 @@ class Star extends Component {
         },300)
       }
     })
-    
-    
   }
  
 
