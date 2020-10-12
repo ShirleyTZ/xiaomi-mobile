@@ -3,6 +3,7 @@ import BtnList from '../PublicComponent/BtnList';
 import {headLeft, headRight} from '../Cart/CartResource/CR';
 import {btnList, 
   moreLink, 
+  moreTv,
   xiaomiPhoneTitle, 
   xiaomiPhoneheadImg, 
   xiaomiPhone,
@@ -16,6 +17,26 @@ import {btnList,
   contract5GTitle,
   crowdfunding,
   crowdfundingTitle,
+  tvTitle,
+  tvProducts,
+  moreAppliance,
+  superApplianceTitle,
+  superAppliance,
+  laptopTitle,
+  laptop,
+  moreXiaoai,
+  xiaoaiTitle,
+  xiaoai,
+  routerTitle,
+  routerProduct,
+  houseHoldEATitle,
+  houseHoldEA,
+  kitchenApplianceTitle,
+  kitchenAppliance,
+  smartWearTitle,
+  smartWear,
+  smartHouseholdTitle,
+  smartHousehold,
 } from './ClassifyResource/CR';
 import './Classify.css';
 import BtnWithImgsAndDesc from '../PublicComponent/BtnWithImgsAndDesc';
@@ -132,6 +153,163 @@ class Classify extends Component {
                 />
               )}
             </article>
+
+            <article>
+              {tvProducts.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={tvTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  more={key === 0 ? "Classify-btn-more" : undefined}
+                  moreData={moreTv}
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {superAppliance.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={superApplianceTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  more={key === 0 ? "Classify-btn-more" : undefined}
+                  moreData={moreAppliance}
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {laptop.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={laptopTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {xiaoai.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={xiaoaiTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  more={key === xiaoai.length-1 ? "Classify-btn-more" : undefined}
+                  moreData={moreXiaoai}
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {routerProduct.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={routerTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {houseHoldEA.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={houseHoldEATitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  more={key === houseHoldEA.length-1 ? "Classify-btn-more" : undefined}
+                  moreData={moreXiaoai}
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {kitchenAppliance.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={kitchenApplianceTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  key={key}
+                />
+              )}
+            </article>
+
+            <article>
+              {smartWear.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={smartWearTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  more={key === houseHoldEA.length-1 ? "Classify-btn-more" : undefined}
+                  moreData={moreXiaoai}
+                  key={key}
+                />
+              )}
+            </article>
+            
+            <article>
+              {smartHousehold.map((items,key) => 
+                <BtnWithImgsAndDesc 
+                  items={items}
+                  title="Classify-btn-box-title"
+                  titleData={smartHouseholdTitle[key]}
+                  btnBox="Classify-btn-box"
+                  btnitemsWrapper="Classify-btn-items-wrapper"
+                  btnName="Classify-btn-items"
+                  imgClassName="Classify-btn-items-img"
+                  descClassName="Classify-btn-items-desc"
+                  more={key === smartHousehold.length-1 ? "Classify-btn-more" : undefined}
+                  moreData={moreXiaoai}
+                  key={key}
+                />
+              )}
+            </article>
+
           </div>
         </section>
         

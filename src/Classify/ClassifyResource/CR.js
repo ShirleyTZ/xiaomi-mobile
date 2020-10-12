@@ -49,6 +49,7 @@ export const xiaomiPhone = [
 ]
 
 export const moreLink = {backgroundImage: `url(${require("./moreLink.webp")})`};
+export const moreTv = {backgroundImage: `url(${require("./moreTv.webp")})`};
 
 export const RedmiPhoneTitle =["Redmi红米 K系列", "Redmi红米 X系列", "Redmi红米 数字系列", "Redmi红米 Note系列", "Redmi手机配件"]
 export const RedmiPhoneheadImg = require("../ClassifyResource/RedmiPhone/headerImg.webp");
@@ -403,5 +404,476 @@ export const crowdfunding = [
       img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCrowdfunding/List1Img71.png")})`},
       desc: "浴霸",
     },
+  ]
+]
+
+export const tvTitle =["电视", "盒子", "音箱", "电视配件与会员"]
+export const tvProducts = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List1Img1.png")})`},
+      desc: "32-40英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List1Img2.png")})`},
+      desc: "43英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List1Img3.png")})`},
+      desc: "49-50英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List1Img4.png")})`},
+      desc: "55-60英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List1Img5.png")})`},
+      desc: "65-98英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List1Img6.png")})`},
+      desc: "激光投影电视",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List2Img1.png")})`},
+      desc: "盒子4",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List2Img2.png")})`},
+      desc: "盒子4c",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List2Img3.jpg")})`},
+      desc: "盒子4 SE套装版",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List3Img1.jpg")})`},
+      desc: "小米电视音响",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List3Img2.png")})`},
+      desc: "Redmi条形音箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List3Img3.png")})`},
+      desc: "小米电视音箱音影版",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List4Img1.png")})`},
+      desc: "会员卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Tv/List4Img2.jpg")})`},
+      desc: "遥控器",
+    },
+  ]
+]
+
+export const moreAppliance = {backgroundImage: `url(${require("./moreAppliance.webp")})`};
+export const superApplianceTitle =["大家电"]
+export const superAppliance = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SuperAppliance/List1Img1.png")})`},
+      desc: "冰箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SuperAppliance/List1Img2.png")})`},
+      desc: "壁挂空调",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SuperAppliance/List1Img3.png")})`},
+      desc: "立式空调",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SuperAppliance/List1Img4.png")})`},
+      desc: "滚筒洗衣机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SuperAppliance/List1Img5.png")})`},
+      desc: "波轮洗衣机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SuperAppliance/List1Img6.png")})`},
+      desc: "干衣机",
+    },
+  ]
+]
+
+export const laptopTitle =["RedmiBook", "小米笔记本", "电脑配件"]
+export const laptop = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List1Img1.png")})`},
+      desc: "Redmi G 游戏本",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List1Img2.png")})`},
+      desc: "RedmiBook Air 13",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List1Img3.png")})`},
+      desc: "RedmiBook 16",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List1Img4.png")})`},
+      desc: "RedmiBook 14",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List1Img5.png")})`},
+      desc: "RedmiBook 13",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List2Img1.png")})`},
+      desc: "Pro 15\"",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List2Img2.png")})`},
+      desc: "Air 13.3\"",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List2Img3.png")})`},
+      desc: "Air 12.5\"",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List2Img4.png")})`},
+      desc: "显示器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List2Img5.png")})`},
+      desc: "游戏本",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List2Img6.png")})`},
+      desc: "15.6\"",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img1.jpg")})`},
+      desc: "网络摄像头",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img2.png")})`},
+      desc: "多功能转接器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img3.png")})`},
+      desc: "键鼠套装",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img4.png")})`},
+      desc: "鼠标",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img5.png")})`},
+      desc: "显示器挂灯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img6.png")})`},
+      desc: "双肩包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img7.png")})`},
+      desc: "储存",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/LaptopForWork/List3Img8.png")})`},
+      desc: "内胆包",
+    },
+  ]
+]
+
+export const moreXiaoai = {backgroundImage: `url(${require("./moreXiaoai.webp")})`};
+export const xiaoaiTitle =["小爱触屏音箱", "小爱智能音箱"]
+export const xiaoai = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List1Img1.png")})`},
+      desc: "Redmi 8英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List1Img2.png")})`},
+      desc: "小米 8英寸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List1Img3.png")})`},
+      desc: "小米 4英寸",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img1.png")})`},
+      desc: "小爱音箱 Art",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img2.png")})`},
+      desc: "小爱音箱",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img3.png")})`},
+      desc: "小爱音箱 Pro",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img4.png")})`},
+      desc: "小米AI音箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img5.png")})`},
+      desc: "小爱音箱Play",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img6.png")})`},
+      desc: "小爱万能遥控版",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img7.png")})`},
+      desc: "小爱HD",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img8.png")})`},
+      desc: "Redmi 小爱音箱",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/Xiaoai/List2Img9.png")})`},
+      desc: "小爱随身音箱",
+    }, 
+  ],
+]
+
+export const routerTitle =["WIFY 6", "千兆版", "百兆版", "配件"]
+export const routerProduct = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List1Img1.png")})`},
+      desc: "Redmi AX6",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List1Img2.png")})`},
+      desc: "Redmi AX5",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List1Img3.png")})`},
+      desc: "AX1800",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List1Img4.png")})`},
+      desc: "AloT AX3600",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img1.png")})`},
+      desc: "路由器4 Pro",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img2.png")})`},
+      desc: "路由器AC2350",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img3.png")})`},
+      desc: "Mesh（两只装",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img4.png")})`},
+      desc: "Redmi AC2100",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img5.png")})`},
+      desc: "小米AC2100",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img6.png")})`},
+      desc: "4A 千兆版",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img7.png")})`},
+      desc: "4 千兆版",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List2Img8.png")})`},
+      desc: "路由器Pro 2600M",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List3Img1.png")})`},
+      desc: "4C 300M",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List3Img2.png")})`},
+      desc: "4A 百兆版",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RouterProduct/List4Img1.png")})`},
+      desc: "WiFI放大器",
+    },
+  ]
+]
+
+export const houseHoldEATitle =["生活电器"]
+export const houseHoldEA = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img1.png")})`},
+      desc: "空气净化器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img2.png")})`},
+      desc: "扫地机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img3.png")})`},
+      desc: "吸尘器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img4.png")})`},
+      desc: "新风机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img5.png")})`},
+      desc: "电风扇",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img6.png")})`},
+      desc: "晾衣机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img7.png")})`},
+      desc: "电暖器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img8.png")})`},
+      desc: "擦地机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img9.png")})`},
+      desc: "加湿器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img10.png")})`},
+      desc: "除螨仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img11.png")})`},
+      desc: "修剪器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img12.png")})`},
+      desc: "甲醛检测仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img13.png")})`},
+      desc: "智能浴霸",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img14.png")})`},
+      desc: "暖风机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img15.png")})`},
+      desc: "挂烫机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img16.png")})`},
+      desc: "宠物饮水机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img17.png")})`},
+      desc: "除湿机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HouseholdElectricAppliance/List1Img18.png")})`},
+      desc: "宠物喂食器",
+    },
+  ]
+]
+
+export const kitchenApplianceTitle =["厨房大电", "厨房小电"]
+export const kitchenAppliance = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List1Img1.png")})`},
+      desc: "净水器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List1Img2.png")})`},
+      desc: "洗碗机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List1Img3.png")})`},
+      desc: "烟机灶具",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img1.png")})`},
+      desc: "蒸烤箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img2.png")})`},
+      desc: "饮水机",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img3.jpg")})`},
+      desc: "微烤一体",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img4.png")})`},
+      desc: "电饭煲",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img5.png")})`},
+      desc: "电磁炉",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img6.png")})`},
+      desc: "电压力锅",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img7.png")})`},
+      desc: "水壶",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img8.png")})`},
+      desc: "微波炉",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img9.png")})`},
+      desc: "电烤箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img10.png")})`},
+      desc: "料理机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img11.png")})`},
+      desc: "咖啡机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img12.png")})`},
+      desc: "电热锅",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img13.png")})`},
+      desc: "多功能涮烤锅",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/KitchenAppliance/List2Img14.png")})`},
+      desc: "三明治机",
+    }, 
+  ],
+]
+
+export const  smartWearTitle=["智能穿戴"]
+export const smartWear = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img1.png")})`},
+      desc: "智能手表",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img2.png")})`},
+      desc: "智能手环",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img3.png")})`},
+      desc: "儿童手表",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img4.png")})`},
+      desc: "耳机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img5.png")})`},
+      desc: "头戴影院",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img6.png")})`},
+      desc: "石英表",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartWear/List1Img7.png")})`},
+      desc: "VR眼镜",
+    },
+  ]
+]
+
+export const  smartHouseholdTitle=["智能家居", "照明灯具"]
+export const smartHousehold = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img1.png")})`},
+      desc: "智能门锁",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img2.png")})`},
+      desc: "智能猫眼",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img3.png")})`},
+      desc: "摄像机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img4.png")})`},
+      desc: "打印机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img5.png")})`},
+      desc: "智能门铃",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img6.png")})`},
+      desc: "传感器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img7.png")})`},
+      desc: "网关",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img8.png")})`},
+      desc: "智能插座",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img9.png")})`},
+      desc: "保管箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img10.png")})`},
+      desc: "空调伴侣",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List1Img11.png")})`},
+      desc: "智能窗帘",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img1.png")})`},
+      desc: "台灯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img2.png")})`},
+      desc: "吸顶灯",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img3.jpg")})`},
+      desc: "床头灯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img4.png")})`},
+      desc: "夜灯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img5.png")})`},
+      desc: "灯泡",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img6.png")})`},
+      desc: "筒灯",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img7.png")})`},
+      desc: "开关",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img8.png")})`},
+      desc: "吊灯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/SmartHouseHold/List2Img9.png")})`},
+      desc: "风扇灯",
+    }
   ]
 ]
