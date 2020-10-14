@@ -1,0 +1,17 @@
+if(index < columns) {
+        if(index%2 === 0) {
+          $(this).css({
+            position: "absolute",
+            top: 0,
+            left: 0, 
+          })
+        }
+        if(index%2 === 1) {
+          $(this).css({
+            position: "absolute",
+            top: 0,
+            right: 0, 
+          })
+        }
+        arr.push(itemHeight);
+      } else {

@@ -1,5 +1,3 @@
-import { ticksPre2 } from "../../ImgsForFooter";
-
 const maths = { 
   "avatar": "",
   "bg": "",

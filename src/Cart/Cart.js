@@ -8,9 +8,9 @@ class Cart extends Component {
     return (
       <div className="Cart-wrapper">
         <header className="Cart-head">
-          <img src={headLeft}/>
+          <img src={headLeft} alt=""/>
           <div>购物车</div>
-          <img src={headRight}/>
+          <img src={headRight} alt=""/>
         </header>
 
         <section>
@@ -29,7 +29,7 @@ class Cart extends Component {
 
           <article className="Cart-guess-box">
             <div className="Cart-guess-img">
-              <img src={guessImg}/>
+              <img src={guessImg} alt=""/>
             </div>
             <ProductBox 
               items={guessItems}

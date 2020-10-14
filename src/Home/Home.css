@@ -73,6 +73,10 @@
   margin-right: .6rem;
 }
 
+.Home-header-nav::-webkit-scrollbar {
+  display: none;
+}
+
 .Home-header-nav-af {
   padding: .05rem 0;
   display: flex;

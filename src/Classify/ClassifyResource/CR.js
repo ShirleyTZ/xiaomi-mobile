@@ -877,3 +877,577 @@ export const smartHousehold = [
     }
   ]
 ]
+
+export const vehicleTitle =["出行", "车载"]
+export const vehicle = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List1Img1.png")})`},
+      desc: "助力车",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List1Img2.png")})`},
+      desc: "平衡车",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List1Img3.png")})`},
+      desc: "滑板车",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List1Img4.png")})`},
+      desc: "对讲机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List1Img5.png")})`},
+      desc: "充气宝",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List1Img6.png")})`},
+      desc: "卡丁车套件",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List2Img1.png")})`},
+      desc: "智能后视镜",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List2Img2.png")})`},
+      desc: "车充",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List2Img3.png")})`},
+      desc: "停车牌",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/VehicleProduct/List2Img4.png")})`},
+      desc: "香薰",
+    },
+  ]
+]
+
+export const healthProtectionTitle =["防护清洁", "个护", "健康"]
+export const healthProtection = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List1Img1.png")})`},
+      desc: "电子体温计",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List1Img2.jpg")})`},
+      desc: "洗手机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List1Img3.png")})`},
+      desc: "MIJOY粘毛器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List1Img4.png")})`},
+      desc: "清洁湿巾",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List1Img5.png")})`},
+      desc: "纸巾",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List1Img6.png")})`},
+      desc: "毛巾浴巾",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img1.png")})`},
+      desc: "成人电动牙刷",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img2.png")})`},
+      desc: "儿童电动牙刷",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img3.png")})`},
+      desc: "剃须刀",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img4.png")})`},
+      desc: "吹风机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img5.png")})`},
+      desc: "洁面机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img6.png")})`},
+      desc: "香氛机",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img7.png")})`},
+      desc: "手动牙刷",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img8.png")})`},
+      desc: "冲牙器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img9.png")})`},
+      desc: "牙膏",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img10.png")})`},
+      desc: "洗洁精机",
+    },{
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img11.png")})`},
+      desc: "化妆镜",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List2Img12.png")})`},
+      desc: "洁面仪",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img1.png")})`},
+      desc: "体脂秤",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img2.png")})`},
+      desc: "体重秤",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img3.png")})`},
+      desc: "走步机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img4.png")})`},
+      desc: "健身车",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img5.png")})`},
+      desc: "按摩器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img6.png")})`},
+      desc: "口罩",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img7.jpg")})`},
+      desc: "蒸汽眼罩",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/HealthProtection/List3Img8.png")})`},
+      desc: "指甲刀",
+    }, 
+  ]
+]
+
+export const digitalAccessoriesTitle =["音箱", "耳机", "手机配件", "电子教育"]
+export const digitalAccessories = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List1Img1.png")})`},
+      desc: "户外蓝牙音箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List1Img2.png")})`},
+      desc: "小爱音箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List1Img3.png")})`},
+      desc: "蓝牙音箱",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List2Img1.png")})`},
+      desc: "蓝牙耳机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List2Img2.png")})`},
+      desc: "线控耳机",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img1.png")})`},
+      desc: "移动电源",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img2.png")})`},
+      desc: "无线充",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img3.png")})`},
+      desc: "充电器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img4.png")})`},
+      desc: "车充",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img5.png")})`},
+      desc: "数据线",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img6.png")})`},
+      desc: "自拍杆",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img7.png")})`},
+      desc: "保护壳",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List3Img8.png")})`},
+      desc: "贴膜",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List4Img1.png")})`},
+      desc: "翻译机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List4Img2.png")})`},
+      desc: "电纸书",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DigitalAccessories/List4Img3.png")})`},
+      desc: "小爱老师",
+    }, 
+  ]
+]
+
+export const dailyUseTitle =["图书", "箱包", "儿童用品", "床品家具", "家居日用", "鞋服配饰"]
+export const dailyUse = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List1Img1.jpg")})`},
+      desc: "一往无前",
+    }
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List2Img1.png")})`},
+      desc: "旅行箱",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List2Img2.png")})`},
+      desc: "小背包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List2Img3.png")})`},
+      desc: "双肩包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List2Img4.png")})`},
+      desc: "胸包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List2Img5.png")})`},
+      desc: "儿童书包",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img1.jpg")})`},
+      desc: "盲盒公仔",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img2.png")})`},
+      desc: "儿童手表",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img3.png")})`},
+      desc: "早教启智",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img4.png")})`},
+      desc: "点读笔",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img5.png")})`},
+      desc: "智能魔方",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img6.png")})`},
+      desc: "米兔",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img7.png")})`},
+      desc: "益智积木",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img8.png")})`},
+      desc: "儿童滑板车",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img9.png")})`},
+      desc: "理发器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img10.png")})`},
+      desc: "折叠婴儿推车",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img11.png")})`},
+      desc: "儿童书包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img12.png")})`},
+      desc: "液晶小黑板",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img13.png")})`},
+      desc: "RedmiKino",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List3Img14.png")})`},
+      desc: "遥控车",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List4Img1.png")})`},
+      desc: "床垫",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List4Img2.png")})`},
+      desc: "枕头",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List4Img3.png")})`},
+      desc: "工学椅",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img1.png")})`},
+      desc: "无痕胶带",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img2.png")})`},
+      desc: "垃圾袋",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img3.png")})`},
+      desc: "水漕过滤网",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img4.png")})`},
+      desc: "插线板",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img5.png")})`},
+      desc: "转换器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img6.png")})`},
+      desc: "电池",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img7.png")})`},
+      desc: "驱蚊器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img8.png")})`},
+      desc: "便携设备",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img9.png")})`},
+      desc: "工具",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img10.png")})`},
+      desc: "保温杯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img11.png")})`},
+      desc: "冰格",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img12.png")})`},
+      desc: "手电筒",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img13.png")})`},
+      desc: "零食坚果",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img14.png")})`},
+      desc: "签字笔",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img15.png")})`},
+      desc: "红包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img16.png")})`},
+      desc: "小爱智能闹钟",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img17.png")})`},
+      desc: "MIJOY好物",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img18.png")})`},
+      desc: "简约记事本",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List5Img19.png")})`},
+      desc: "液晶小黑板",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List6Img1.png")})`},
+      desc: "定制T恤",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List6Img2.png")})`},
+      desc: "运动心电T恤",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List6Img3.png")})`},
+      desc: "眼镜",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List6Img4.png")})`},
+      desc: "饰品",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List6Img5.jpg")})`},
+      desc: "运动鞋",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/DailyUse/List6Img6.png")})`},
+      desc: "纪念T恤",
+    }, 
+  ]
+]
+
+export const  choicenessTitle=["有品精选"]
+export const choiceness = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img1.png")})`},
+      desc: "颈部按摩器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img2.png")})`},
+      desc: "按摩筋膜枪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img3.png")})`},
+      desc: "保温泡茶杯",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img4.png")})`},
+      desc: "黑头仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img5.jpg")})`},
+      desc: "智能可视采耳棒",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img6.jpg")})`},
+      desc: "眼部按摩器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img7.png")})`},
+      desc: "鼻毛修剪器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img8.png")})`},
+      desc: "智能艾灸盒",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img9.png")})`},
+      desc: "超声波清洗机",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img10.jpg")})`},
+      desc: "淋浴花洒",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img11.png")})`},
+      desc: "激光测距仪",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img12.jpg")})`},
+      desc: "脱糖蒸汽养生饭煲",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img13.jpg")})`},
+      desc: "智能训练跳绳",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img14.png")})`},
+      desc: "杀菌消毒牙刷架",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img15.png")})`},
+      desc: "杀菌消毒刀筷架",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img16.png")})`},
+      desc: "喷水拖把",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img17.jpg")})`},
+      desc: "美牙仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img18.png")})`},
+      desc: "智能垃圾桶",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img19.png")})`},
+      desc: "脱毛仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img20.png")})`},
+      desc: "机械手表",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img21.png")})`},
+      desc: "衣物消毒烘干机",
+    },  {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img22.png")})`},
+      desc: "窗帘",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img23.png")})`},
+      desc: "血压计",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img24.png")})`},
+      desc: "无线K歌麦克风",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img25.png")})`},
+      desc: "智能足浴按摩器",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img26.png")})`},
+      desc: "生发仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img27.png")})`},
+      desc: "大闸蟹礼券",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img28.png")})`},
+      desc: "护颈按摩枕",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img29.png")})`},
+      desc: "靠背",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img30.png")})`},
+      desc: "智能拔罐刮痧仪",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Choiceness/List1Img31.png")})`},
+      desc: "陶瓷泡茶杯",
+    },
+  ],
+]
+
+export const xiaomiServiceTitle =["热门推荐", "手机服务", "家电服务"]
+export const xiaomiService = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiService/List1Img1.png")})`},
+      desc: "免费安装服务",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiService/List2Img1.png")})`},
+      desc: "手机保障服务",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiService/List2Img2.png")})`},
+      desc: "手机上门维修",
+    },
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiService/List3Img1.png")})`},
+      desc: "电视保障服务",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiService/List3Img2.png")})`},
+      desc: "电视安装",
+    }, 
+  ],
+]
+
+export const xiaomiCardTitle =["爆品推荐", "电话卡", "流量包"]
+export const xiaomiCard = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List1Img1.png")})`},
+      desc: "1元体验包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List1Img2.png")})`},
+      desc: "5G折扣套餐",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List1Img3.png")})`},
+      desc: "小大流量卡",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List2Img1.png")})`},
+      desc: "联通米粉王卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List2Img2.png")})`},
+      desc: "电信米粉星卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List2Img3.jpg")})`},
+      desc: "移动花卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List2Img4.png")})`},
+      desc: "吃到饱",
+    }, 
+  ], [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List3Img1.png")})`},
+      desc: "联通5G升级包",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/XiaomiCard/List3Img2.png")})`},
+      desc: "移动5G特惠包",
+    }, 
+  ]
+]
+
+export const xiaomiJointlyTitle =["小米联名"]
+export const xiaomiJointly = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/xiaomiJointly/List1Img1.png")})`},
+      desc: "小米中信卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/xiaomiJointly/List1Img2.png")})`},
+      desc: "小米光大卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/xiaomiJointly/List1Img3.png")})`},
+      desc: "小米招行卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/xiaomiJointly/List1Img4.png")})`},
+      desc: "小米广发卡",
+    }, 
+  ], 
+]
+
+export const retailShopTitle =["零售店"]
+export const retailShop = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RetailShop/List1Img1.png")})`},
+      desc: "小米之家",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RetailShop/List1Img2.png")})`},
+      desc: "服务网点",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/RetailShop/List1Img3.png")})`},
+      desc: "线下专区",
+    }, 
+  ], 
+]
+
+export const othersTitle =["其他"]
+export const others = [
+  [
+    {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Others/List1Img1.png")})`},
+      desc: "以旧换新",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Others/List1Img2.png")})`},
+      desc: "引荐有礼",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Others/List1Img3.png")})`},
+      desc: "企业团购",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Others/List1Img4.png")})`},
+      desc: "云服务空间年卡",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Others/List1Img5.png")})`},
+      desc: "小米互助",
+    }, {
+      img: {backgroundImage: `url(${require("../ClassifyResource/Others/List1Img6.png")})`},
+      desc: "云服务空间月卡",
+    }, 
+  ], 
+]

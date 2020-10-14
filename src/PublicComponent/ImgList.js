@@ -8,7 +8,7 @@ class ImgList extends Component {
       <div className={this.props.listName} >
         {btns.map((btn,key) => (
           <a className={this.props.btnName} key={key}>
-            <img src={btn}/>
+            <img src={btn} alt=""/>
             {this.props.circle !== undefined ? <div className={this.props.circle}></div>:""}
           </a>)
         )}

@@ -8,7 +8,7 @@ class ProductBox extends Component {
         {aboutProducts.map((product,i) => (
           <div className={this.props.content} key={i}>
             <div className={this.props.thumb}>
-              <img src={product.img}/>
+              <img src={product.img} alt=""/>
             </div>
             
             <div className={this.props.about}>

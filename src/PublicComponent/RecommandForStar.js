@@ -17,7 +17,7 @@ class RecommandForStar extends Component {
                   <div className={this.props.userName}>{item.userName}</div>
               </div>
               <div>
-                  <img className={this.props.watchImg} src={eye} />
+                  <img className={this.props.watchImg} src={eye} alt=""/>
                   <div className={this.props.viewedNum}>{item.viewNum}</div>
               </div>
           </div>

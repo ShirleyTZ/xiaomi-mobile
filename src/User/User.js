@@ -12,7 +12,9 @@ class User extends Component {
           <div className="User-header-content">
             <img 
               className="User-header-img" 
-              src={ticksPre1[0]}/>
+              src={ticksPre1[0]}
+              alt=""
+              />
           </div>
           <div>登录/注册</div>
         </header>

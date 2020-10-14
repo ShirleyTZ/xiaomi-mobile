@@ -13,46 +13,56 @@ class Star extends Component {
     this.state = {
       pageNum: 1,
       data: recommend.slice(0, 5),
+      arr: [0, 0],
     }
   }
   waterFall() {
     const columns = 2;
-    const arr = [];
+    let arr = [];
+
     const fatherElement = $(".Star-recommand-item-box");
+    const remwidth = document.documentElement.offsetWidth/6.4;
     $(".Star-recommand-item-wrapper").each(function(index) {
       const itemHeight = $(this).height();
-      const itemWidth = $(this).width()
-      const leftNum = (itemWidth/64 +0.3)*[(index+2)%columns] + "rem"
+      const itemWidth = $(this).width();
       if(index < columns) {
-        $(this).css({
-          position: "absolute",
-          top: 0,
-          left: leftNum, 
-        })
+        if(index%2 === 0) {
+          $(this).css({
+            position: "absolute",
+            top: 0,
+            left: 0, 
+          })
+        }
+        if(index%2 === 1) {
+          $(this).css({
+            position: "absolute",
+            top: 0,
+            right: 0, 
+          })
+        }
         arr.push(itemHeight);
       } else {
         let minHeight = arr[0];
         let minIndex = 0;
-       
         for ( let num = 0; num < arr.length; num++) {
           if(minHeight > arr[num]) {
             minHeight = arr[num];
             minIndex = num;
           }
         }
-        const minIndexNum = (itemWidth/64 +0.3)*[(minIndex+2)%columns] + "rem";
+        const rl = (itemWidth/remwidth + .05)*[(minIndex+2)%columns] + "rem";
         $(this).css({
           position: "absolute",
-          top: (arr[minIndex]/58 + 0.2) + "rem",
-          left: minIndexNum,
+          top: (arr[minIndex]/remwidth + 0.05) + "rem",
+          left: rl,
         })
-
-        arr[minIndex] = arr[minIndex] +itemHeight + 0.2*58;
+        arr[minIndex] = arr[minIndex] + itemHeight + 0.1*remwidth;
         fatherElement.css({
           height: arr[minIndex],
         })
       }
     })
+    
   }
 
   newData(num) {
@@ -72,10 +82,12 @@ class Star extends Component {
     let newData;
     
     $(window).scroll(function(){
-      const scrollTop = Math.ceil($(this).scrollTop());
+      const scrollTop = (Math.ceil(window.pageYOffset))
+                        || (Math.ceil(document.documentElement.scrollTop))
+                        || (Math.ceil(document.body.scrollTop));
       const clientHeight = $(this).height();
       const bodyHeight = $(document).height();
-      if(scrollTop + clientHeight >= bodyHeight) {
+      if(scrollTop + clientHeight >= bodyHeight-100) {
         moreData = recommend.slice(pageNum*5 -5, pageNum*5);
         pageNum = pageNum + 1;
         newData = that.state.data.concat(...moreData);
@@ -87,13 +99,12 @@ class Star extends Component {
         },300)
       }
     })
+
   }
  
 
   componentDidMount() {
-    this.showMore();
     this.waterFall();
-
   }
 
   render() {
@@ -106,7 +117,7 @@ class Star extends Component {
             listName="Star-nav-left" 
             btnName="Star-nav-left-btn"/>
           <div className="Star-nav-right">
-            <a className="Star-nav-right-btn bell"></a>
+            <a className="Star-nav-right-btn bell">{" "}</a>
             <a className="Star-nav-right-btn" style={starNavRightImg}></a>
           </div>
         </div>
@@ -139,7 +150,7 @@ class Star extends Component {
             />
           </article>
 
-          <article className="article">
+          <article className="article" onScroll={this.showMore()}>
             <RecommandForStar 
               items={this.state.data}
               box= "Star-recommand-item-box"
@@ -156,7 +167,7 @@ class Star extends Component {
           </article>
 
           <footer className="footer">
-            <img src={starFooterImgs[0]}/>
+            <img src={starFooterImgs[0]} alt=""/>
           </footer>
         </section>
 
