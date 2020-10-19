@@ -72,7 +72,6 @@ class Classify extends Component {
       for(let i = articles.length-1; i >= 0; i--){
         const height = $(".Classify-item-content").eq(i).offset().top;
         const btnHeight = $(".Classify-nav-btn-item").eq(i).offset().top;
-        console.log("aaa",height);
         if(srollTopItem >= height) {
           btns.each(function() {
             $(this).css({

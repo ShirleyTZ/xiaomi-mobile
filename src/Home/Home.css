@@ -6,6 +6,7 @@
   width: 6.4rem;
   top: 0;
   background-color: #f2f2f2;
+  z-index: 20;
 }
 
 .Home-header-search {
@@ -118,11 +119,12 @@
   top: 0;
 }
 
+/* 导航标签 */
 .Home-sections {
   width: 6.4rem;
   margin-top: 1.3rem;
+  display: none;
 }
-
 
 /* home 轮播图*/
 
@@ -214,6 +216,10 @@
 .Home-product-item-desc {
   font-size: .18rem;
   color: rgba(0, 0, 0 , .54);
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .Home-product-item-price {
@@ -369,4 +375,312 @@
 .nnn {
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* 手机页面 */
+
+#phone {
+  width: 6.4rem;
+  margin-top: 1.3rem;
+}
+
+.main-header {
+  width: 6.4rem;
+  height: 6.1rem;
+  display: block;
+}
+
+.article1 {
+  width: 6.4rem;
+  overflow: hidden;
+}
+
+.headerImg {
+  width: 6.4rem;
+  display: block;
+}
+
+.divider-line {
+  height: .14rem;
+  width: 6.4rem;
+}
+
+.line-group1 {
+  background-color: rgb(114, 187, 111);
+}
+
+.HomePhone-article1-wrapper {
+  display: flex;
+  overflow-x: auto;
+  background-color: rgb(114, 187, 111);
+}
+
+.HomePhone-article1-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.HomePhone-article1-item {
+  width: 2.8rem;
+  margin: 0 .05rem ;
+  text-align: center;
+  background-color: white;
+}
+
+.HomePhone-article1-item-img, .HomePhone-article1-item-img img{
+  width: 2.8rem;
+}
+
+.HomePhone-article1-item-name {
+  font-size: .28rem;
+  color: rgba(0, 0, 0 , .87);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.HomePhone-article1-item-desc {
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.HomePhone-article1-item-price {
+  display: flex;
+  justify-content: center;
+}
+
+.HomePhone-article1-item-price span{
+  font-size: .22rem;
+  color: #ea625b;
+}
+
+.HomePhone-article1-item-price del {
+  margin-left: .1rem;
+  line-height: .32rem;
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
+
+.HomePhone-article1-item-cart {
+  font-size: .22rem;
+  color: white;
+  background-color: #ea625b;
+  border-radius: .05rem;
+  width: 1.5rem;
+  padding: .1rem;
+  margin: auto;
+}
+
+.article2 {
+  background-color: rgb(111, 145, 187);
+}
+
+.line-group2 {
+  background-color: rgb(111, 145, 187);
+}
+
+.Home-phone-product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-phone-product-item {
+  width: 3.1rem;
+  margin: .14rem .05rem 0;
+  padding-bottom: .2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: .1rem;
+  overflow: hidden;
+}
+
+.Home-phone-product-item:nth-of-type(1){
+  width: 6.3rem;
+  margin: 0 .05rem;
+}
+
+.Home-phone-product-item:nth-of-type(1) img {
+  width: 6.3rem;
+}
+
+.Home-phone-product-item:nth-of-type(1) .Home-phone-product-item-about {
+  display: flex;
+  padding: 0 .1rem;
+  justify-content: space-between;
+}
+
+.Home-phone-product-item-img:first{
+  width: 6.3rem;
+}
+
+.Home-phone-product-item-img, .Home-phone-product-item-img img{
+  width: 3.1rem;
+}
+
+.Home-phone-product-item-name {
+  font-size: .28rem;
+  color: rgba(0, 0, 0 , .87);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-phone-product-item-desc {
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-phone-product-item-price {
+  display: flex;
+  justify-content: center;
+}
+
+.Home-phone-product-item-price span{
+  font-size: .22rem;
+  color: #ea625b;
+}
+
+.Home-phone-product-item-price del {
+  margin-left: .1rem;
+  line-height: .32rem;
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
+
+.Home-phone-product-item-cart {
+  font-size: .22rem;
+  color: white;
+  background-color: #ea625b;
+  border-radius: .05rem;
+  width: 1.5rem;
+  padding: .1rem;
+  margin: auto;
+}
+
+.video {
+  width: 6.4rem;
+  display: block;
+}
+
+.Home-phone-product-item.Home-phone-special-item, .Home-phone-product-item.Home-phone-special-item img {
+  width: 6.4rem;
+}
+
+.Home-phone-product-item.Home-phone-special-item .Home-phone-product-item-about {
+  display: flex;
+  padding: 0 .1rem;
+  justify-content: space-between;
+}
+
+.Home-phone-product-item.Home-phone-special-item .Home-phone-product-item-about .Home-phone-product-item-name {
+  text-align: left;
+}
+
+.Home-phone-product-item.Home-phone-special-item .Home-phone-product-item-about .Home-phone-product-item-desc {
+  max-width: 4rem;
+  text-align: left;
+}
+
+.Home-phone-special-wrapper {
+  background-color: rgb(246, 181, 104);
+}
+
+.Home-product-wrapper.Home-product-article5 {
+  background-color: rgb(246, 181, 104);
+}
+
+.Home-phone-product-wrapper.Home-product-article6 {
+  background-color: rgb(114, 187, 111);
+}
+
+.Home-product-article5-item {
+  padding-bottom: .1rem;
+  margin: .15rem .05rem 0;
+  border-radius: .1rem;
+  overflow: hidden;
+}
+
+.Home-product-item {
+  background-color: white;
+}
+
+/* 三个一排的样式*/
+
+.Home-phone-bottom-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: .15rem;
+  justify-content: space-around;
+  background-color: rgb(246, 181, 104);
+}
+
+.Home-phone-bottom-item {
+  width: 2rem;
+  margin: .15rem 0 0;
+  padding-bottom: .1rem;
+  background-color: white;
+  text-align: center;
+  border-radius: .05rem;
+  overflow: hidden;
+}
+
+.Home-phone-bottom-item-img, .Home-phone-bottom-item-img img{
+  width: 2rem;
+}
+
+.Home-phone-bottom-item-name {
+  font-size: .24rem;
+  color: rgba(0, 0, 0 , .87);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-phone-bottom-item-desc {
+  font-size: .14rem;
+  color: rgba(0, 0, 0 , .54);
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-phone-bottom-item-price {
+  display: flex;
+  justify-content: center;
+}
+
+.Home-phone-bottom-item-price span{
+  font-size: .22rem;
+  color: #ea625b;
+}
+
+.Home-phone-bottom-item-price del {
+  margin-left: .1rem;
+  line-height: .32rem;
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
+
+.Home-phone-bottom-item-cart {
+  font-size: .22rem;
+  color: white;
+  background-color: #ea625b;
+  border-radius: .05rem;
+  width: 1.5rem;
+  padding: .1rem;
+  margin: auto;
+}
+
+.Home-phone-bottom-more {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .24rem;
+  color: rgba(0, 0, 0 , .6);
 }

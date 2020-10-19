@@ -12,14 +12,19 @@ class ProductBox extends Component {
             </div>
             
             <div className={this.props.about}>
-            <p className={this.props.name}>{product.name}</p>
-            {this.props.desc !== undefined ? <p className={this.props.desc}>{product.desc}</p> : ""}
-            <p className={this.props.price}>
-              <span>{product.price} </span>
-              <del>{product.beforePrice}</del>
-            </p>
-              {this.props.cartBtn !== undefined ? <div className={this.props.cartBtn}>立即购买</div>:""}
+              <div>
+                <p className={this.props.name}>{product.name}</p>
+                {this.props.desc !== undefined ? <p className={this.props.desc}>{product.desc}</p> : ""}
               </div>
+              <div>
+                <p className={this.props.price}>
+                  <span>{product.price} </span>
+                  <del>{product.beforePrice}</del>
+                </p>
+                {this.props.cartBtn !== undefined ? <div className={this.props.cartBtn}>立即购买</div>:""}
+              </div>
+              
+            </div>
           </div>
         ))}   
       </div>
