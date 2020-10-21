@@ -1,0 +1,95 @@
+.Smart {
+  margin-top: 1.3rem;
+}
+
+/* 分割线 爆款商品 */
+
+.divide-line {
+  height: .14rem;
+  width: 6.4rem;
+  background-color: rgb(250, 250, 250);
+}
+
+.divide-line.grey-line {
+  background-color: rgb(240, 241, 243);
+}
+
+.Home-smart-bottom-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Home-smart-bottom-item {
+  width: 2rem;
+  margin: 0 0 ;
+  padding-bottom: .2rem;
+  background-color: white;
+  text-align: center;
+  border-radius: .05rem;
+  overflow: hidden;
+}
+
+.grey-items {
+  background-color: rgb(240, 241, 243);
+}
+
+.Home-smart-bottom-item-img, .Home-smart-bottom-item-img img{
+  width: 2rem;
+}
+
+.Home-smart-bottom-item-name {
+  font-size: .24rem;
+  color: rgba(0, 0, 0 , .87);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-smart-bottom-item-desc {
+  font-size: .14rem;
+  color: rgba(0, 0, 0 , .54);
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-smart-bottom-item-price {
+  display: flex;
+  justify-content: center;
+}
+
+.Home-smart-bottom-item-price span{
+  font-size: .22rem;
+  color: #ea625b;
+}
+
+.Home-smart-bottom-item-price del {
+  margin-left: .1rem;
+  line-height: .32rem;
+  font-size: .18rem;
+  color: rgba(0, 0, 0 , .54);
+}
+
+.Home-smart-bottom-item-cart {
+  font-size: .22rem;
+  color: white;
+  background-color: #ea625b;
+  border-radius: .05rem;
+  width: 1.5rem;
+  padding: .1rem;
+  margin: auto;
+}
+
+.Home-smart-bottom-more {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: .24rem;
+  color: rgba(0, 0, 0 , .6);
+}
+
+.footerImg {
+  border-top: 1px solid rgb(227, 227, 227);
+}

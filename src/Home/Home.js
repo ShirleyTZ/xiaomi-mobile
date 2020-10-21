@@ -11,6 +11,7 @@ import ImgList from '../PublicComponent/ImgList';
 import $ from 'jquery';
 import HomeRecommand from './HomeRecommand';
 import HomePhone from './HomePhone';
+import HomeSmart from './HomeSmart';
 
 class Home extends Component {
   navChange() {
@@ -63,6 +64,7 @@ class Home extends Component {
 
         <HomePhone />
 
+        <HomeSmart />
         <section >
           sjadhbeia
           <div className="nnn">adjvniaeufniajnd</div>
