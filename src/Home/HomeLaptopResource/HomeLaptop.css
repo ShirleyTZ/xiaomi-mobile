@@ -1,0 +1,14 @@
+.divider-line.HomeLaptop-divider-blue, .HomeLaptop-divider-blue {
+  background-color: rgb(72, 120, 166);
+}
+
+.Home-laptop-footer-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: .01rem solid #d4d4d4;
+}
+
+.Home-laptop-footer-img-items, .Home-laptop-footer-img-items img {
+  width: 3.2rem;
+  display: block;
+}

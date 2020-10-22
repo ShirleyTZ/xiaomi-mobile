@@ -12,6 +12,8 @@ import $ from 'jquery';
 import HomeRecommand from './HomeRecommand';
 import HomePhone from './HomePhone';
 import HomeSmart from './HomeSmart';
+import HomeTV from './HomeTV';
+import HomeLaptop from './HomeLaptop';
 
 class Home extends Component {
   navChange() {
@@ -65,6 +67,11 @@ class Home extends Component {
         <HomePhone />
 
         <HomeSmart />
+
+        <HomeTV />
+
+        <HomeLaptop />
+
         <section >
           sjadhbeia
           <div className="nnn">adjvniaeufniajnd</div>

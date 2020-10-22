@@ -21,7 +21,7 @@ import ProductBox from '../PublicComponent/ProductBox';
 class HomeSmart extends Component {
   render() {
     return (
-      <section className="Smart" >
+      <section className="Home-sections" >
         <article className="Home-swiper-lazy">
           <ImgList 
             btns={switchImgs}

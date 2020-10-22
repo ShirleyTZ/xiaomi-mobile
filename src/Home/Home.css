@@ -644,7 +644,6 @@
 .Home-phone-bottom-item-desc {
   font-size: .14rem;
   color: rgba(0, 0, 0 , .54);
-  
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;

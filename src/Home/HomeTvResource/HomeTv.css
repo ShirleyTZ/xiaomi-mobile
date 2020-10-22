@@ -1,0 +1,68 @@
+.Smart {
+  margin-top: 1.3rem;
+}
+
+.Home-Tv-article-bg-pink {
+  background-color: rgb(255, 235, 220);
+}
+
+.Home-Tv-article-item {
+  padding: 0 0 .1rem;
+}
+
+.Home-Tv-article-bg-green {
+  background-color: rgb(202, 254, 245);
+}
+
+.Home-product-wrapper-one {
+  padding-bottom: .1rem;
+}
+
+.Home-product-item-one {
+  width: 6.3rem;
+  margin: 0 .05rem .1rem;
+  overflow: hidden;
+  border-radius: .1rem;
+  background-color: white;
+}
+
+.Home-product-item-one img {
+  width: 6.3rem;
+}
+
+.Home-product-item-about {
+  text-align: center;
+  display: flex;
+  padding: 0 .1rem;
+  justify-content: space-between;
+}
+
+.Home-product-item-one-name {
+  font-size: .24rem;
+  max-width: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-product-item-one-desc  {
+  font-size: .22rem;
+  max-width: 2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home-product-item-one-price {
+  font-size: .22rem;
+}
+
+.Home-product-item-one-cart {
+  font-size: .22rem;
+  color: white;
+  background-color: #ea625b;
+  border-radius: .05rem;
+  width: 1.5rem;
+  padding: .1rem;
+  margin: auto;
+}

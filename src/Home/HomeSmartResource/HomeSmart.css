@@ -1,7 +1,3 @@
-.Smart {
-  margin-top: 1.3rem;
-}
-
 /* 分割线 爆款商品 */
 
 .divide-line {
@@ -22,7 +18,7 @@
 
 .Home-smart-bottom-item {
   width: 2rem;
-  margin: 0 0 ;
+  margin: 0 0 .1rem;
   padding-bottom: .2rem;
   background-color: white;
   text-align: center;
@@ -49,7 +45,6 @@
 .Home-smart-bottom-item-desc {
   font-size: .14rem;
   color: rgba(0, 0, 0 , .54);
-  
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
