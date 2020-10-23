@@ -14,6 +14,8 @@ import HomePhone from './HomePhone';
 import HomeSmart from './HomeSmart';
 import HomeTV from './HomeTV';
 import HomeLaptop from './HomeLaptop';
+import HomeAppliance from './HomeAppliance';
+import HomeLife from './HomeLife';
 
 class Home extends Component {
   navChange() {
@@ -36,7 +38,6 @@ class Home extends Component {
       navWrapper.addClass('Home-header-nav').removeClass('Home-header-nav-af');
       nav.addClass('Home-header-nav-items').removeClass('Home-header-nav-items-af');
     }
-
   }
 
   render() {
@@ -72,22 +73,9 @@ class Home extends Component {
 
         <HomeLaptop />
 
-        <section >
-          sjadhbeia
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
-          <div className="nnn">adjvniaeufniajnd</div>
+        <HomeAppliance />
 
-        </section>
+        <HomeLife />
       </div>
     )
   }

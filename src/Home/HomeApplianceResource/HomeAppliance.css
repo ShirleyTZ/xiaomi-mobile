@@ -1,0 +1,17 @@
+.HA-topList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HA-topimg img {
+  display: block;
+  margin-bottom: .01rem;
+}
+
+.HA-topimg, .HA-topimg img {
+  width: 1.59rem;
+}
+
+.HomeAppliance-divider-purple {
+  background-color: rgb(237, 216, 253);
+}

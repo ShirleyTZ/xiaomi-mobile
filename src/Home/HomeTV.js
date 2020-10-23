@@ -18,7 +18,7 @@ import ProductBox from '../PublicComponent/ProductBox';
 class HomeTV extends Component {
   render() {
     return (
-      <section className="Smart">
+      <section className="Home-sections">
         <article>
           <img className="headerImg" src={headerImg[0]} />
           <ProductBox 

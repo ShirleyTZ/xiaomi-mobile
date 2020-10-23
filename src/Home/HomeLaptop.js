@@ -14,7 +14,7 @@ import ImgList from '../PublicComponent/ImgList';
 class HomeLaptop extends Component {
   render() {
     return (
-      <section>
+      <section className="Home-sections">
         <article>
           <div className="divider-line HomeLaptop-divider-blue"></div>
           <img className="headerImg" src={headerImg[0]} />
