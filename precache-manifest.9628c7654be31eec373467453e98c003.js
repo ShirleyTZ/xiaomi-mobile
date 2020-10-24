@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d32f66cb4afcfd1b8211a10fe74164a7",
+    "revision": "3d55ca393d3f9e8c42c7baf0dc5070f6",
     "url": "/xiaomi-mobile/index.html"
   },
   {
-    "revision": "7d4f81bc2ef899f61ce3",
-    "url": "/xiaomi-mobile/static/css/main.75787f7e.chunk.css"
+    "revision": "987e123b5f6b2d19b50f",
+    "url": "/xiaomi-mobile/static/css/main.5466d01b.chunk.css"
   },
   {
-    "revision": "aaf9410a498d13c62dc5",
-    "url": "/xiaomi-mobile/static/js/2.572c1257.chunk.js"
+    "revision": "2d4157a013d9d323e2bf",
+    "url": "/xiaomi-mobile/static/js/2.2c96abf0.chunk.js"
   },
   {
     "revision": "ffa35a34964860fdc97ed79ca9abd27c",
-    "url": "/xiaomi-mobile/static/js/2.572c1257.chunk.js.LICENSE.txt"
+    "url": "/xiaomi-mobile/static/js/2.2c96abf0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d4f81bc2ef899f61ce3",
-    "url": "/xiaomi-mobile/static/js/main.be8a4495.chunk.js"
+    "revision": "987e123b5f6b2d19b50f",
+    "url": "/xiaomi-mobile/static/js/main.5dbda061.chunk.js"
   },
   {
     "revision": "d56c685aa0628c33526f",
