@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maixmum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maixmum-scale=1.0,user-scalable=no" />
     <style>
         *{
             margin:0;
@@ -11,6 +11,7 @@
         }
         html,body{
             width:100%;
+          
             height:100%;
         }
     </style>
@@ -46,6 +47,27 @@
           document.documentElement.style.fontSize = document.documentElement.offsetWidth / 6.4+'px';
       }
       getRem();
+      window.onload = function() {
+        var lastTouchEnd = 0;
+        document.addEventListener('touchstart', function(event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+        });
+        document.addEventListener('touchend', function(event) {
+        var now = (new Date()).getTime();
+        if (now - lastTouchEnd <= 300) {
+            event.preventDefault();
+        }
+        lastTouchEnd = now;
+        }, false);
+        document.addEventListener('gesturestart', function(event) {
+        event.preventDefault();
+        });
+        document.addEventListener('dblclick', function (event) {
+        event.preventDefault();
+	      })
+      }
     </script>
     <!--
       This HTML file is a template.

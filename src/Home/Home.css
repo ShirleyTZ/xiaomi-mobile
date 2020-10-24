@@ -90,6 +90,11 @@
   color: rgb(116, 116, 116);
 }
 
+.Home-header-nav-items:nth-of-type(1) {
+  color: rgb(237, 91, 0);
+  border-bottom: .05rem solid rgb(237, 91, 0);
+}
+
 .Home-header-nav-items-af {
   width: 1.26rem;
   font-size: .24rem;
@@ -99,6 +104,12 @@
   margin: .1rem .15rem;
   border: 1px solid #e5e5e5;
   border-radius: .1rem;
+}
+
+.Home-header-nav-items-af:nth-of-type(1) {
+  background-color: #fde0d5;
+  color: rgb(237, 91, 0);
+  border: .01rem solid rgb(237, 91, 0);
 }
 
 .Home-header-nav-all {
@@ -124,6 +135,10 @@
   width: 6.4rem;
   margin-top: 1.3rem;
   display: none;
+}
+
+.Home-sections:nth-of-type(1) {
+  display: block;
 }
 
 /* home 轮播图*/

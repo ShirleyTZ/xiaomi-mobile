@@ -45,7 +45,7 @@ class HomeLife extends Component {
           />
         </article>
 
-        <article2>
+        <article>
           <img className="headerImg" src={lineImg[0]}/>
           <div className="divider-line HomeLife-divider-green"></div>
           <img className="headerImg" src={lineImg[1]}/>
@@ -59,7 +59,7 @@ class HomeLife extends Component {
             desc="Home-smart-bottom-item-desc"
             price="Home-smart-bottom-item-price"
           />
-        </article2>
+        </article>
 
         <article>
           <img className="headerImg" src={headerImg[2]}/>

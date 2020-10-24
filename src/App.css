@@ -13,27 +13,12 @@
   }
 }
 
-.red {
-  width: 3.2rem;
-  height: 200px;
-  background-color: red;
-}
-
-.pink {
-  width: 3.2rem;
-  height: 200px;
-  background-color: pink;
-}
-
-.pink, .red {
-  float: left;
-}
 
 /* footer样式*/
 
 .Footer {
   width: 6.4rem;
-  height: 52px;
+  height: .9rem;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -67,4 +52,8 @@
   font-size: .2rem;
   text-align: center;
   color: #999;
+}
+
+.Footer-btn:nth-of-type(1) .Footer-btn-desc{
+  color: rgb(237, 91, 0);
 }

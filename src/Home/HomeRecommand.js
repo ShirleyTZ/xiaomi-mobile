@@ -25,7 +25,6 @@ import ProductBox from '../PublicComponent/ProductBox';
 import $ from 'jquery';
 
 class HomeRecommand extends Component {
-  
   render() {
     return (
       <section className="Home-sections">

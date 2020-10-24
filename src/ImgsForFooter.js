@@ -17,7 +17,7 @@ export let ticksPre1 = Object.keys(maths).map(item => require("./PublicResource/
 export let ticksPre2 = Object.keys(maths2).map(item => require("./PublicResource/"+ item + ".png"));
 export let items = [
   {
-    img: {backgroundImage: `url(${ticksPre1[0]})`},
+    img: {backgroundImage: `url(${ticksPre2[0]})`},
     desc: "首页",
   }, {
     img: {backgroundImage: `url(${ticksPre1[1]})`},
