@@ -4,14 +4,10 @@ import BtnList from '../PublicComponent/BtnList';
 import {
   starNav, 
   starNavRightImg, 
-
 } from './StarResource/SR';
-import $ from 'jquery';
 import StarRecommand from './StarRecommand';
 
 class Star extends Component {
-  
-
   render() {
     return (
       <div className="Star-wrapper">

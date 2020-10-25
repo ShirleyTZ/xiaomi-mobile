@@ -25,7 +25,6 @@ class App extends Component {
   handleFooterClick =(key)=> {
     const btns = $(".Footer-btn-desc");
     const bgImgs = $(".Footer-btn-img")
-    console.log(key,btns.eq(key));
     btns.css({
       color: "rgb(116, 116, 116)",
     })

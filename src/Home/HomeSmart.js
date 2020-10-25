@@ -17,16 +17,81 @@ import {
 import './HomeSmartResource/HomeSmart.css';
 import ImgList from '../PublicComponent/ImgList';
 import ProductBox from '../PublicComponent/ProductBox';
+import $ from 'jquery';
 
 class HomeSmart extends Component {
+  smartSlideshow() {
+    const slideItem = $(".Home-smart-swiper-list");
+    const itemLength = $(".Home-smart-swiper").length;
+    const swiperBtn = $(".Home-smart-swiper-btn-item");
+    let i = 0;
+    this.timer = setInterval(function(){
+        i++;
+        if(i < itemLength){
+          slideItem.css({
+            left: -i*6.4 + "rem",
+          })
+          swiperBtn.css({
+            backgroundColor: "rgb(236, 236, 236)",
+            opacity: ".3",
+          })
+          swiperBtn.eq(i).css({
+            backgroundColor: "white",
+            opacity: 1
+          })
+        }else {
+          slideItem.css({
+            left: 0,
+          })
+          i = 0;
+          swiperBtn.css({
+            backgroundColor: "rgb(236, 236, 236)",
+            opacity: ".3",
+          })
+          swiperBtn.eq(i).css({
+            backgroundColor: "white",
+            opacity: 1
+          })
+        }
+    },3000)
+  }
+
+  handleBtnClick =(key)=> {
+    clearInterval(this.timer);
+    const slideItem = $(".Home-smart-swiper-list");
+    const swiperBtn = $(".Home-smart-swiper-btn-item");
+    swiperBtn.css({
+      backgroundColor: "rgb(236, 236, 236)",
+      opacity: ".3",
+    })
+    swiperBtn.eq(key).css({
+      backgroundColor: "white",
+      opacity: 1,
+    })
+    slideItem.css({
+      left: -key*6.4 + "rem",
+    })
+    this.smartSlideshow(key);
+  }
+  
+  componentDidMount() {
+    this.smartSlideshow();
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
   render() {
     return (
       <section className="Home-sections" >
         <article className="Home-swiper-lazy">
           <ImgList 
             btns={switchImgs}
-            listName="Home-swiper-list"
-            btnName="Home-swiper-list-items"
+            listName="Home-swiper-list Home-smart-swiper-list"
+            btnName="Home-swiper-list-items Home-smart-swiper"
+            circleList="Home-swiper-btn-list Home-smart-swiper-btn-list"
+            cirleName="Home-swiper-btn-item Home-smart-swiper-btn-item"
+            handleBtnClick={this.handleBtnClick.bind(this)}
             />
         </article>
 

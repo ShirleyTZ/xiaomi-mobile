@@ -25,14 +25,79 @@ import ProductBox from '../PublicComponent/ProductBox';
 import $ from 'jquery';
 
 class HomeRecommand extends Component {
+  slideshow(index) {
+    const slideItem = $(".Home-recommand-swiper-list");
+    const itemLength = $(".Home-recommand-swiper").length;
+    const swiperBtn = $(".Home-recommand-swiper-btn-item");
+    var i = index !== undefined ? index : 0;
+    this.timer = setInterval(function(){
+      i++;
+      if(i < itemLength){
+        slideItem.css({
+          left: -i*6.4 + "rem",
+        })
+        swiperBtn.css({
+          backgroundColor: "rgb(236, 236, 236)",
+          opacity: ".3",
+        })
+        swiperBtn.eq(i).css({
+          backgroundColor: "white",
+          opacity: 1
+        })
+      }else {
+        slideItem.css({
+          left: 0,
+        })
+        i = 0;
+        swiperBtn.css({
+          backgroundColor: "rgb(236, 236, 236)",
+          opacity: ".3",
+        })
+        swiperBtn.eq(i).css({
+          backgroundColor: "white",
+          opacity: 1
+        })
+      }
+    },3000)
+  }
+
+  handleBtnClick =(key)=> {
+    clearInterval(this.timer);
+    const slideItem = $(".Home-recommand-swiper-list");
+    const swiperBtn = $(".Home-recommand-swiper-btn-item");
+    swiperBtn.css({
+      backgroundColor: "rgb(236, 236, 236)",
+      opacity: ".3",
+    })
+    swiperBtn.eq(key).css({
+      backgroundColor: "white",
+      opacity: 1,
+    })
+    slideItem.css({
+      left: -key*6.4 + "rem",
+    })
+    this.slideshow(key);
+  }
+  
+  componentDidMount() {
+    this.slideshow();
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
+
   render() {
     return (
       <section className="Home-sections">
         <article className="Home-swiper-lazy">
           <ImgList 
             btns={swiperImgs}
-            listName="Home-swiper-list"
-            btnName="Home-swiper-list-items"
+            listName="Home-swiper-list Home-recommand-swiper-list"
+            btnName="Home-swiper-list-items Home-recommand-swiper"
+            circleList="Home-swiper-btn-list Home-recommand-swiper-btn-list"
+            cirleName="Home-swiper-btn-item Home-recommand-swiper-btn-item"
+            handleBtnClick={this.handleBtnClick.bind(this)}
             />
         </article>
 

@@ -18,6 +18,7 @@ import HomeAppliance from './HomeAppliance';
 import HomeLife from './HomeLife';
 
 class Home extends Component {
+  //导航改变样式
   navChange() {
     const navAll = $('.Home-header-nav-all').eq(0);
     const style2 = navAll.css("display");
@@ -30,7 +31,6 @@ class Home extends Component {
       const index = nav.filter(function(item) {
         return $(this).css("color") == "rgb(237, 91, 0)";
       }).index();
-      console.log("na",index)
       navWrapper.css("display","none");
       navWrapper.addClass('Home-header-nav-af').removeClass('Home-header-nav').slideDown(200);
       nav.addClass('Home-header-nav-items-af').removeClass('Home-header-nav-items');
@@ -70,6 +70,7 @@ class Home extends Component {
     }
   }
 
+  //导航click功能
   handleBtnClick =(key)=> {
     const sections = $(".Home-sections");
     const btns = $(".Home-header-nav-items");

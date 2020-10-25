@@ -95,7 +95,7 @@ class StarRecommand extends Component {
         moreData = recommend.slice(pageNum*5 -5, pageNum*5);
         pageNum = pageNum + 1;
         newData = that.state.data.concat(...moreData);
-        setTimeout(function(){
+        this.timer = setTimeout(function(){
           that.setState({
             data: newData
           })
@@ -110,6 +110,16 @@ class StarRecommand extends Component {
   componentDidMount() {
     this.waterFall();
   }
+
+  componentWillUnmount() {
+    clearTimeout(this.timer);
+    this.setState =(state, callback) => {
+      return
+    }
+    clearTimeout(this.timer);
+  }
+
+
   render() {
     const btns = this.props.btns;
     return (

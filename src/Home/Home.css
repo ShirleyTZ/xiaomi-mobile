@@ -135,6 +135,7 @@
   width: 6.4rem;
   margin-top: 1.3rem;
   display: none;
+  margin-bottom: .9rem;
 }
 
 .Home-sections:nth-of-type(1) {
@@ -147,11 +148,49 @@
   width: 6.4rem;
   height: 3.15rem;
   overflow: hidden;
+  position: relative;
+}
+
+.Home-swiper-list {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+}
+
+.Home-swiper-list::-webkit-scrollbar {
+  display: none;
 }
 
 .Home-swiper-list-items, .Home-swiper-list-items img {
   width: 6.4rem;
   height: 3.15rem;
+}
+
+.Home-swiper-btn-list {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 3.2rem;
+  transform: translate(-50%,0);
+  z-index: 20;
+}
+
+.Home-swiper-btn-item{
+  width: .2rem;
+  height: .2rem;
+  background-color: rgb(236, 236, 236);
+  opacity: .3;
+  border-radius: .2rem;
+  margin: .1rem;
+}
+
+.Home-swiper-btn-item:nth-of-type(1) {
+  background-color: white;
+  opacity: 1;
 }
 
 .Home-recommendcell-list {

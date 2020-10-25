@@ -69,10 +69,11 @@ class Classify extends Component {
       const btnWrapper = $(".Classify-nav-btn-list")
       const btns= $(".Classify-nav-btn-item");
       const articles = $(".Classify-item-content");
+      const remwidth = document.documentElement.offsetWidth/6.4;
       for(let i = articles.length-1; i >= 0; i--){
         const height = $(".Classify-item-content").eq(i).offset().top;
         const btnHeight = $(".Classify-nav-btn-item").eq(i).offset().top;
-        if(srollTopItem >= height) {
+        if(srollTopItem >= height - 0.85*remwidth- 5) {
           btns.each(function() {
             $(this).css({
               color: "black",
@@ -102,6 +103,12 @@ class Classify extends Component {
 
   handleBtnClick =(key)=> {
     const btns= $(".Classify-nav-btn-item");
+    const remwidth = document.documentElement.offsetWidth/6.4; 
+    const height = $(".Classify-item-content").eq(key).offset().top;
+    const rightContent = $(".Classify-right-content").eq(0);
+    $("html, body").animate({
+      scrollTop: height - 0.85*remwidth
+    },500)
     btns.each(function() {
       $(this).css({
         color: "black",
@@ -118,13 +125,6 @@ class Classify extends Component {
       width: "1rem",
       height: ".7rem"
     })
-    const height = $(".Classify-item-content").eq(key).offset().top;
-    const rightContent = $(".Classify-right-content").eq(0);
-    $("html, body").animate({
-      scrollTop: height-30
-    },500)
-    
-    console.log(key, $(".Classify-item-content").eq(key).offset().top, rightContent.height());
   }
 
   render() {
